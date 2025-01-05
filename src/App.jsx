@@ -11,17 +11,21 @@ import { initialEdges, initialNodes } from "./constant";
 import GetToken from "./components/getToken";
 import UploadImage from "./components/createFileName";
 import DataService from "./components/dataService";
-import handleConnections from "./connections";
+import { addEdge } from "reactflow";
+import axios from "axios";
 import "./App.css";
 import { Position } from "@xyflow/react";
 
 const ImageNode = ({ data }) => {
-  console.log(data)
   return (
     <div className="container">
-           <div className="header">Removed Background Preview</div>
-      <img src={data.imageUrl} style={{width:"100%"}}/>
-      <Handle type="target" position={Position.Left} />
+      <div className="header">Background Removed Preview</div>
+      <div className="nodeContainer">
+        {data.imageUrl && (
+          <iframe src={data.imageUrl} className="iframeCanvas" />
+        )}
+        <Handle type="target" position={Position.Left} />
+      </div>
     </div>
   );
 };
@@ -34,6 +38,7 @@ const App = () => {
     auth: { token: "", clientId: "" },
     files: { createFile: "", getFile: "" },
   });
+  const [imgs, setimg] = useState();
 
   const handleImageUpload = useCallback((url) => {
     setUploadedUrl(url);
@@ -47,6 +52,7 @@ const App = () => {
           {...props}
           onImageUpload={handleImageUpload}
           setUserData={setUserData}
+          userData={userData}
         />
       ),
       dataService: DataService,
@@ -56,10 +62,95 @@ const App = () => {
   );
 
   const onConnect = useCallback(
-    (connections) =>
-      handleConnections(connections, edges, setEdges, setNodes, userData),
-    [edges, setEdges, userData, setNodes]
+    async (connections) => {
+      const newEdge = {
+        ...connections,
+        animated: true,
+        id: `${edges.length + 1}`,
+      };
+
+      setEdges((prevEdges) => {
+        const updatedEdges = addEdge(newEdge, prevEdges);
+
+        if (connections.source === "2" && connections.target === "3") {
+          console.log("Remove Background Image", userData);
+          removeBackgroundImage();
+        } else if (connections.source === "2" && connections.target === "4") {
+          console.log("Create Mask", userData);
+        }
+
+        return updatedEdges;
+      });
+    },
+    [edges, setEdges, userData]
   );
+
+  const removeBackgroundImage = async () => {
+    try {
+      const response = await axios.post(
+        "http://localhost:1337/proxy/remove-bg",
+        { userData },
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      const href = response.data._links.self.href;
+
+      const fetchStatus = async () => {
+        const result = await axios.post(
+          "http://localhost:1337/proxy/fetch-bg-status",
+          {
+            href,
+            token: userData.auth.token.access_token,
+            clientId: userData.auth.clientId,
+          },
+          {
+            headers: {
+              "Content-Type": "application/json",
+            },
+          }
+        );
+
+        if (result.data.status === "succeeded") {
+          return result.data.url;
+        } else if (result.data.status === "failed") {
+          throw new Error("Background removal task failed.");
+        }
+
+        await new Promise((resolve) => setTimeout(resolve, 3000));
+        return fetchStatus();
+      };
+
+      const imageUrl = await fetchStatus();
+      console.log("Received image URL:", imageUrl);
+      setimg(imageUrl);
+      const newNodeId = `node-${Date.now()}`;
+      setNodes((prevNodes) => [
+        ...prevNodes,
+        {
+          id: newNodeId,
+          type: "imageNode",
+          position: { x: 1850, y: 100 },
+          data: { imageUrl },
+        },
+      ]);
+      setEdges((prevEdges) => [
+        ...prevEdges,
+        {
+          id: `edge-to-${newNodeId}`,
+          source: "3",
+          target: newNodeId,
+          animated: true,
+        },
+      ]);
+    } catch (error) {
+      console.error("API Error:", error);
+      alert("An error occurred. Please try again.");
+    }
+  };
 
   return (
     <div style={{ width: "100vw", height: "100vh" }}>

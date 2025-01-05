@@ -22,7 +22,7 @@ export const initialNodes = [
     data:{label: "Create Mask"},
     position:{x:1250, y:200},
     type:"dataService"
-  }
+  },
 ];
 
 export const initialEdges = [

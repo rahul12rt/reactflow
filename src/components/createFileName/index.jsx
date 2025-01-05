@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import { Handle, Position } from "reactflow";
 
 const UploadImage = (props) => {
-  const { data, onImageUpload, setUserData } = props;
+  const { data, onImageUpload, setUserData, userData } = props;
   const label = data?.label;
   const [fileName, setFileName] = useState("");
   const [selectedImage, setSelectedImage] = useState(null);
@@ -91,6 +91,8 @@ const UploadImage = (props) => {
       setIsLoading(false);
     }
   };
+
+
 
   return (
     <div className="container">
