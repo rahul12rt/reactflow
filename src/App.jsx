@@ -39,6 +39,32 @@ const App = () => {
     files: { createFile: "", getFile: "" },
   });
   const [imgs, setimg] = useState();
+  const [selectedValue, setSelectedValue] = useState("");
+
+  const options = [
+    { value: "3", label: "Remove Background" },
+    { value: "4", label: "Create Mask" },
+    { value: "5", label: "Generate Image" },
+  ];
+
+  const handleSelectChange = (event) => {
+    const selectedId = event.target.value;
+    const selectedLabel = options.find((opt) => opt.value === selectedId)?.label;
+
+    if (selectedId && !nodes.some((node) => node.id === selectedId)) {
+      setNodes((prevNodes) => [
+        ...prevNodes,
+        {
+          id: selectedId,
+          data: { label: selectedLabel },
+          position: { x: Math.random() * 400, y: Math.random() * 400 },
+          type: "dataService",
+        },
+      ]);
+    }
+
+    setSelectedValue(selectedId);
+  };
 
   const handleImageUpload = useCallback((url) => {
     setUploadedUrl(url);
@@ -154,6 +180,16 @@ const App = () => {
 
   return (
     <div style={{ width: "100vw", height: "100vh" }}>
+         <div style={{ marginBottom: 20 }}>
+        <select value={selectedValue} onChange={handleSelectChange}>
+          <option value="">Select Node</option>
+          {options.map((option) => (
+            <option key={option.value} value={option.value}>
+              {option.label}
+            </option>
+          ))}
+        </select>
+      </div>
       <ReactFlow
         nodes={nodes}
         edges={edges}
