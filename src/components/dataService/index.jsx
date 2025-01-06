@@ -42,6 +42,7 @@ DataService.propTypes = {
   data: PropTypes.shape({
     label: PropTypes.string.isRequired,
   }).isRequired,
+  id: PropTypes.string.isRequired, 
 };
 
 export default DataService;

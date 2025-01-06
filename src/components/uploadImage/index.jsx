@@ -5,13 +5,13 @@ import PropTypes from "prop-types";
 import { Handle, Position } from "reactflow";
 
 const UploadImage = (props) => {
-  const { data, onImageUpload, setUserData, userData } = props;
+  const { data, setUserData } = props;
   const label = data?.label;
   const [fileName, setFileName] = useState("");
   const [selectedImage, setSelectedImage] = useState(null);
   const [apiUrl, setApiUrl] = useState(null);
-  const [imageUrl, setImageUrl] = useState(null); 
-  const [isLoading, setIsLoading] = useState(false); 
+  const [imageUrl, setImageUrl] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleImageName = (e) => {
     setFileName(e.target.value);
@@ -32,8 +32,11 @@ const UploadImage = (props) => {
       );
 
       if (response.status === 200) {
-        console.log("create file: " + response.data.url)
-        setUserData((prev)=>({...prev,   files: { createFile: response.data.url, getFile: '' },}))
+        console.log("create file: " + response.data.url);
+        setUserData((prev) => ({
+          ...prev,
+          files: { createFile: response.data.url, getFile: "" },
+        }));
         setApiUrl(response.data.url);
       }
     } catch (error) {
@@ -79,10 +82,7 @@ const UploadImage = (props) => {
           ...prev,
           files: { ...prev.files, getFile: response.data.url },
         }));
-        setImageUrl(response.data.url); 
-        if (onImageUpload) {
-          onImageUpload(response.data.url); 
-        }
+        setImageUrl(response.data.url);
       }
     } catch (error) {
       console.error("API Error:", error);
@@ -91,8 +91,6 @@ const UploadImage = (props) => {
       setIsLoading(false);
     }
   };
-
-
 
   return (
     <div className="container">
@@ -144,15 +142,14 @@ const UploadImage = (props) => {
         <div className={styles.imagePreview}>
           <div className="header">Uploaded Image Preview</div>
           <img src={imageUrl} alt="Uploaded" className={styles.previewImage} />
-           <Handle type="source" position={Position.Right} />
+          <Handle type="source" position={Position.Right} />
         </div>
       )}
-         {/* <Handle type="source" position={Position.Right} /> */}
+      {/* <Handle type="source" position={Position.Right} /> */}
     </div>
   );
 };
 
-// Add PropTypes for validation
 UploadImage.propTypes = {
   data: PropTypes.shape({
     label: PropTypes.string.isRequired,
