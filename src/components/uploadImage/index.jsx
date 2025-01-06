@@ -3,6 +3,7 @@ import styles from "./index.module.css";
 import axios from "axios";
 import PropTypes from "prop-types";
 import { Handle, Position } from "reactflow";
+import { BASE_URL } from "../../../config";
 
 const UploadImage = (props) => {
   const { data, setUserData } = props;
@@ -56,7 +57,7 @@ const UploadImage = (props) => {
       formData.append("file", selectedImage);
       formData.append("url", apiUrl);
 
-      await axios.post("http://localhost:1337/proxy/upload-image", formData, {
+      await axios.post(`${BASE_URL}proxy/upload-image`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

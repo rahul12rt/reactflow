@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import axios from "axios";
+import { BASE_URL } from "../../config";
 
 function GetToken(props) {
   const [formState, setFormState] = useState({
@@ -33,7 +34,7 @@ function GetToken(props) {
     setFormState((prevState) => ({ ...prevState, error: "" }));
 
     try {
-      const response = await axios.post(`http://localhost:1337/proxy/token`, {
+      const response = await axios.post(`${BASE_URL}proxy/token`, {
         client_id: clientId,
         client_secret: secretId,
         grant_type: "client_credentials",

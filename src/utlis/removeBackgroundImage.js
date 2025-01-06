@@ -1,9 +1,10 @@
 import axios from "axios";
+import { BASE_URL } from "../../config";
 
 const removeBackgroundImage = async (userData, setNodes, setEdges) => {
   try {
     const response = await axios.post(
-      "http://localhost:1337/proxy/remove-bg",
+      `${BASE_URL}proxy/remove-bg`,
       { userData },
       {
         headers: {
@@ -16,7 +17,7 @@ const removeBackgroundImage = async (userData, setNodes, setEdges) => {
 
     const fetchStatus = async () => {
       const result = await axios.post(
-        "http://localhost:1337/proxy/fetch-bg-status",
+        `${BASE_URL}proxy/fetch-bg-status`,
         {
           href,
           token: userData.auth.token.access_token,
