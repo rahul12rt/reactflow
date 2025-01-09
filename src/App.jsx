@@ -23,7 +23,7 @@ const ImageNode = ({ data }) => {
       <div className="header">Background Removed Preview</div>
       <div className="nodeContainer">
         {data.imageUrl && (
-          <iframe src={data.imageUrl} className="iframeCanvas" />
+          <iframe src={data.imageUrl} className="iframeCanvas" />   
         )}
         <Handle type="target" position={Position.Left} />
       </div>
