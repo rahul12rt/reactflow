@@ -41,19 +41,14 @@ const manifest = async (userData, setNodes, setEdges) => {
     };
 
     const imageUrl = await fetchStatus();
-
-
-    // Extract layers from the response
     const layers = imageUrl.outputs[0]?.layers || [];
-
-    // Process layers to remove duplicate children based on name
-    const seenNames = new Set(); // Track unique names across all layers
+    const seenNames = new Set(); 
 
     const uniqueLayers = layers.map((layer) => {
       const uniqueChildren =
         layer?.children?.filter((child) => {
           if (seenNames.has(child?.name)) {
-            return false; // Skip if name is already seen
+            return false; 
           }
           seenNames.add(child?.name); // Add to the seen set
           return true; // Include if name is not seen

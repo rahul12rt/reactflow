@@ -18,6 +18,7 @@ import { Position } from "@xyflow/react";
 import PropTypes from "prop-types";
 import manifest from "./utlis/manifest";
 import CustomCardNode from "./components/customCardNode";
+import psdEdits from "./utlis/psdEdits";
 
 const ImageNode = ({ data }) => {
   return (
@@ -43,6 +44,7 @@ ImageNode.propTypes = {
 const App = () => {
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
+  const [editedText, setEditedText] = useState()
   const [selectedValue, setSelectedValue] = useState("");
 
   const [userData, setUserData] = useState({
@@ -77,6 +79,15 @@ const App = () => {
     setSelectedValue(selectedId);
   };
 
+  const updateNodeData = (id, newData) => {
+    setNodes((prevNodes) =>
+      prevNodes.map((node) =>
+        node.id === id ? { ...node, data: { ...node.data, ...newData } } : node
+      )
+    );
+  };
+  
+  
   const nodeTypes = useCallback(
     {
       getToken: (props) => <GetToken {...props} setUserData={setUserData} />,
@@ -85,10 +96,13 @@ const App = () => {
       ),
       dataService: DataService,
       imageNode: ImageNode,
-      customCardNode: CustomCardNode
+      customCardNode: (props) => (
+        <CustomCardNode {...props} data={{ ...props.data, updateNodeData, setEditedText }} />
+      ),
     },
     []
   );
+  
 
   const onConnect = useCallback(
     (connections) => {
@@ -99,25 +113,32 @@ const App = () => {
       };
       setEdges((prevEdges) => {
         const updatedEdges = addEdge(newEdge, prevEdges);
+
         if (connections.source === "2" && connections.target === "3") {
           removeBackgroundImage(userData, setNodes, setEdges);
         }else if (connections.source === "2" && connections.target === "4") {
           manifest(userData, setNodes, setEdges)
         }
-
+  
         if (connections.target === "5") {
           setNodes((prevNodes) => {
-            const sourceNode = prevNodes.find((node) => node.id === connections.source);
-            console.log("Connected to Node 5:", sourceNode?.data?.child.id, userData.files);
-            return prevNodes; // No change to nodes
+            const sourceNode = prevNodes.find(
+              (node) => node.id === connections.source
+            );
+            const id = sourceNode?.data?.child.id
+            psdEdits(editedText, userData,id, setNodes, setEdges);
+            return prevNodes;
           });
         }
   
         return updatedEdges;
       });
     },
-    [edges, setEdges, userData]
+    [edges, setEdges, userData, editedText, setEditedText]
   );
+
+  
+  
 
   return (
     <div style={{ width: "100vw", height: "100vh" }}>

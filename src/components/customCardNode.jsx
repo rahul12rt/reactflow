@@ -9,6 +9,10 @@ const CustomCardNode = ({ data }) => {
 
   const handleSave = () => {
     setIsEditing(false);
+    data.setEditedText(text)
+      if (data.updateNodeData) {
+      data.updateNodeData(data.id, { child: { ...data.child, editedText: text } });
+    }
   };
 
   return (
