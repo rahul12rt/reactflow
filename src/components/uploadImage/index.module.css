@@ -1,4 +1,8 @@
 
+  .createFileBlock{
+    display: flex;
+    flex-direction: column;
+  }
   .imagePreview {
     margin: 20px 0;
     text-align: center;

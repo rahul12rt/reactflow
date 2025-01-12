@@ -16,6 +16,8 @@ import removeBackgroundImage from "./utlis/removeBackgroundImage";
 import "./App.css";
 import { Position } from "@xyflow/react";
 import PropTypes from "prop-types";
+import manifest from "./utlis/manifest";
+import CustomCardNode from "./components/customCardNode";
 
 const ImageNode = ({ data }) => {
   return (
@@ -50,8 +52,8 @@ const App = () => {
 
   const options = [
     { value: "3", label: "Remove Background" },
-    { value: "4", label: "Create Mask" },
-    { value: "5", label: "Generate Image" },
+    { value: "4", label: "Manifest" },
+    { value: "5", label: "PSD Text edit" },
   ];
 
   const handleSelectChange = (event) => {
@@ -83,6 +85,7 @@ const App = () => {
       ),
       dataService: DataService,
       imageNode: ImageNode,
+      customCardNode: CustomCardNode
     },
     []
   );
@@ -98,7 +101,18 @@ const App = () => {
         const updatedEdges = addEdge(newEdge, prevEdges);
         if (connections.source === "2" && connections.target === "3") {
           removeBackgroundImage(userData, setNodes, setEdges);
+        }else if (connections.source === "2" && connections.target === "4") {
+          manifest(userData, setNodes, setEdges)
         }
+
+        if (connections.target === "5") {
+          setNodes((prevNodes) => {
+            const sourceNode = prevNodes.find((node) => node.id === connections.source);
+            console.log("Connected to Node 5:", sourceNode?.data?.child.id, userData.files);
+            return prevNodes; // No change to nodes
+          });
+        }
+  
         return updatedEdges;
       });
     },

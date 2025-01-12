@@ -1,0 +1,1880 @@
+{
+    "status": "succeeded",
+    "url": {
+        "jobId": "88643a9e-884a-4352-8738-965809e0718d",
+        "outputs": [
+            {
+                "input": "https://assets-at-scale.s3.us-west-1.amazonaws.com/psd.psd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA53OJKPNG2IZHLYXP%2F20250111%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142939Z&X-Amz-Expires=86400&X-Amz-Signature=06bc1994409720d502e533bfaeb7a6cb026ab0b4f6060ec7c1e7922b5dd74c16&X-Amz-SignedHeaders=host",
+                "status": "succeeded",
+                "created": "2025-01-11T14:29:49.903Z",
+                "modified": "2025-01-11T14:29:54.553Z",
+                "layers": [
+                    {
+                        "blendOptions": {
+                            "blendMode": "normal",
+                            "opacity": 100
+                        },
+                        "bounds": {
+                            "height": 600,
+                            "left": 200,
+                            "top": 0,
+                            "width": 300
+                        },
+                        "children": [
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 600,
+                                    "left": 200,
+                                    "top": 0,
+                                    "width": 300
+                                },
+                                "id": 49,
+                                "index": 74,
+                                "locked": false,
+                                "name": "A short and sweet title!",
+                                "rotate": 0,
+                                "text": {
+                                    "characterStyles": [
+                                        {
+                                            "fontAvailable": false,
+                                            "fontColor": {
+                                                "rgb": {
+                                                    "blue": 32768,
+                                                    "green": 32768,
+                                                    "red": 32768
+                                                }
+                                            },
+                                            "fontName": "AdobeClean-ExtraBold",
+                                            "fontSize": 36,
+                                            "orientation": "horizontal"
+                                        }
+                                    ],
+                                    "content": "A short and sweet title!",
+                                    "paragraphStyles": [
+                                        {
+                                            "alignment": "left"
+                                        }
+                                    ],
+                                    "type": "area"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_49.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142953Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=5efbea80902379c1f7bc9dfac1eaa3357ca2f61e8eefe1eb7557bb72965d8db6&X-Amz-SignedHeaders=host",
+                                "type": "textLayer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 600,
+                                    "left": 200,
+                                    "top": 0,
+                                    "width": 300
+                                },
+                                "id": 51,
+                                "index": 73,
+                                "locked": false,
+                                "name": "A longer description about the product that can wrap over to th",
+                                "rotate": -0.03,
+                                "text": {
+                                    "characterStyles": [
+                                        {
+                                            "fontAvailable": false,
+                                            "fontColor": {
+                                                "rgb": {
+                                                    "blue": 29170,
+                                                    "green": 29170,
+                                                    "red": 29170
+                                                }
+                                            },
+                                            "fontName": "AdobeClean-ExtraBold",
+                                            "fontSize": 18,
+                                            "orientation": "horizontal"
+                                        }
+                                    ],
+                                    "content": "A longer description about the product that can wrap over to three or even four lines.",
+                                    "paragraphStyles": [
+                                        {
+                                            "alignment": "left"
+                                        }
+                                    ],
+                                    "type": "area"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_51.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142953Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=a14ab7978ad1d07989b54f662ad82eea4a8f92c4fe557a1011151cacebdc6910&X-Amz-SignedHeaders=host",
+                                "type": "textLayer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "passThrough",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 600,
+                                    "left": 200,
+                                    "top": 0,
+                                    "width": 300
+                                },
+                                "children": [
+                                    {
+                                        "blendOptions": {
+                                            "blendMode": "normal",
+                                            "opacity": 100
+                                        },
+                                        "bounds": {
+                                            "height": 600,
+                                            "left": 200,
+                                            "top": 0,
+                                            "width": 300
+                                        },
+                                        "id": 112,
+                                        "index": 71,
+                                        "locked": false,
+                                        "name": "Learn more",
+                                        "rotate": 0,
+                                        "text": {
+                                            "characterStyles": [
+                                                {
+                                                    "fontAvailable": false,
+                                                    "fontColor": {
+                                                        "rgb": {
+                                                            "blue": 32768,
+                                                            "green": 32768,
+                                                            "red": 32768
+                                                        }
+                                                    },
+                                                    "fontName": "AdobeClean-ExtraBold",
+                                                    "fontSize": 14,
+                                                    "orientation": "horizontal"
+                                                }
+                                            ],
+                                            "content": "Learn more",
+                                            "paragraphStyles": [
+                                                {
+                                                    "alignment": "center"
+                                                }
+                                            ],
+                                            "type": "area"
+                                        },
+                                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_112.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142953Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=b9374286fa9b64644710ef7db695076bdcf4d64774577c42b0685b07dde475cd&X-Amz-SignedHeaders=host",
+                                        "type": "textLayer",
+                                        "visible": true
+                                    },
+                                    {
+                                        "blendOptions": {
+                                            "blendMode": "normal",
+                                            "opacity": 100
+                                        },
+                                        "bounds": {
+                                            "height": 600,
+                                            "left": 200,
+                                            "top": 0,
+                                            "width": 300
+                                        },
+                                        "fill": {
+                                            "solidColor": {
+                                                "rgb": {
+                                                    "blue": 0,
+                                                    "green": 0,
+                                                    "red": 0
+                                                }
+                                            }
+                                        },
+                                        "id": 110,
+                                        "index": 70,
+                                        "locked": false,
+                                        "name": "button",
+                                        "rotate": 0,
+                                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_110.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142953Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=967fd8bc4dea42ec2b3fa20879e6eb8856197268657b376c2211a680bc2b7133&X-Amz-SignedHeaders=host",
+                                        "type": "fillLayer",
+                                        "visible": true
+                                    }
+                                ],
+                                "id": 121,
+                                "index": 72,
+                                "locked": false,
+                                "name": "button",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_121.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=673ad28da5e72db635b8fefc48cadfb2c21083bb117fabb8d771e02d4bd8f53c&X-Amz-SignedHeaders=host",
+                                "type": "layerSection",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 600,
+                                    "left": 200,
+                                    "top": 0,
+                                    "width": 300
+                                },
+                                "id": 875,
+                                "index": 68,
+                                "locked": false,
+                                "name": "logo",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_875.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=053ff5ce8fb0458d0a2c1b1c6010111ade76182970dc86258cfc37834d1d8116&X-Amz-SignedHeaders=host",
+                                "type": "layer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 600,
+                                    "left": 200,
+                                    "top": 0,
+                                    "width": 300
+                                },
+                                "id": 1129,
+                                "index": 67,
+                                "locked": false,
+                                "name": "foreground_contain",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "84854de8-b48c-4617-aac2-62381b7076c1",
+                                    "linked": false,
+                                    "name": "foreground.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1129.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=689f7cc49ac157bfcdbb9a6fc81a8048ea937b52bd9bd438864719e0d12e1d59&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 600,
+                                    "left": 200,
+                                    "top": 0,
+                                    "width": 300
+                                },
+                                "id": 1057,
+                                "index": 66,
+                                "locked": false,
+                                "name": "background-portrait_fill",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "cbb4ef6a-421f-4e76-9eb1-664001c14d81",
+                                    "linked": false,
+                                    "name": "background-portrait-orig.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1057.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=be58b73f08b99aa51957e064e43c10d5bbb6305ff959a6d0084d6ef7bac5c712&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            }
+                        ],
+                        "id": 3,
+                        "index": 75,
+                        "locked": false,
+                        "name": "300x600",
+                        "rotate": 0,
+                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=4437a46b69ff45ce77eff3f89744f9449694c9b0b6ac203f903eef95e29c082d&X-Amz-SignedHeaders=host",
+                        "type": "layerSection",
+                        "visible": true
+                    },
+                    {
+                        "blendOptions": {
+                            "blendMode": "normal",
+                            "opacity": 100
+                        },
+                        "bounds": {
+                            "height": 480,
+                            "left": 540,
+                            "top": 0,
+                            "width": 640
+                        },
+                        "children": [
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 480,
+                                    "left": 540,
+                                    "top": 0,
+                                    "width": 640
+                                },
+                                "id": 58,
+                                "index": 63,
+                                "locked": false,
+                                "name": "A short and sweet title!",
+                                "rotate": 0,
+                                "text": {
+                                    "characterStyles": [
+                                        {
+                                            "fontAvailable": false,
+                                            "fontColor": {
+                                                "rgb": {
+                                                    "blue": 32768,
+                                                    "green": 32768,
+                                                    "red": 32768
+                                                }
+                                            },
+                                            "fontName": "AdobeClean-ExtraBold",
+                                            "fontSize": 36,
+                                            "orientation": "horizontal"
+                                        }
+                                    ],
+                                    "content": "A short and sweet title!",
+                                    "paragraphStyles": [
+                                        {
+                                            "alignment": "left"
+                                        }
+                                    ],
+                                    "type": "area"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_58.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=e245353f6778bbccc1ca6465713508065791177c73fb2b63a2b02befc9c0f85c&X-Amz-SignedHeaders=host",
+                                "type": "textLayer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 480,
+                                    "left": 540,
+                                    "top": 0,
+                                    "width": 640
+                                },
+                                "id": 57,
+                                "index": 62,
+                                "locked": false,
+                                "name": "A longer description about the product that can wrap over to th",
+                                "rotate": 0,
+                                "text": {
+                                    "characterStyles": [
+                                        {
+                                            "fontAvailable": false,
+                                            "fontColor": {
+                                                "rgb": {
+                                                    "blue": 29170,
+                                                    "green": 29170,
+                                                    "red": 29170
+                                                }
+                                            },
+                                            "fontName": "AdobeClean-ExtraBold",
+                                            "fontSize": 18,
+                                            "orientation": "horizontal"
+                                        }
+                                    ],
+                                    "content": "A longer description about the product that can wrap over to three or even four lines.",
+                                    "paragraphStyles": [
+                                        {
+                                            "alignment": "left"
+                                        }
+                                    ],
+                                    "type": "area"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_57.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=be2ed8f2c0865fea53e51f6d1d10d1b6bddee8deb3fafd1046a56d7a794a8233&X-Amz-SignedHeaders=host",
+                                "type": "textLayer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "passThrough",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 480,
+                                    "left": 540,
+                                    "top": 0,
+                                    "width": 640
+                                },
+                                "children": [
+                                    {
+                                        "blendOptions": {
+                                            "blendMode": "normal",
+                                            "opacity": 100
+                                        },
+                                        "bounds": {
+                                            "height": 480,
+                                            "left": 540,
+                                            "top": 0,
+                                            "width": 640
+                                        },
+                                        "id": 125,
+                                        "index": 60,
+                                        "locked": false,
+                                        "name": "Learn more",
+                                        "rotate": 0,
+                                        "text": {
+                                            "characterStyles": [
+                                                {
+                                                    "fontAvailable": false,
+                                                    "fontColor": {
+                                                        "rgb": {
+                                                            "blue": 32768,
+                                                            "green": 32768,
+                                                            "red": 32768
+                                                        }
+                                                    },
+                                                    "fontName": "AdobeClean-ExtraBold",
+                                                    "fontSize": 14,
+                                                    "orientation": "horizontal"
+                                                }
+                                            ],
+                                            "content": "Learn more",
+                                            "paragraphStyles": [
+                                                {
+                                                    "alignment": "center"
+                                                }
+                                            ],
+                                            "type": "area"
+                                        },
+                                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_125.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=ce55a132e94a026539723db457e0879847c53a64b980d2f59667e9d9d94a3bdf&X-Amz-SignedHeaders=host",
+                                        "type": "textLayer",
+                                        "visible": true
+                                    },
+                                    {
+                                        "blendOptions": {
+                                            "blendMode": "normal",
+                                            "opacity": 100
+                                        },
+                                        "bounds": {
+                                            "height": 480,
+                                            "left": 540,
+                                            "top": 0,
+                                            "width": 640
+                                        },
+                                        "fill": {
+                                            "solidColor": {
+                                                "rgb": {
+                                                    "blue": 0,
+                                                    "green": 0,
+                                                    "red": 0
+                                                }
+                                            }
+                                        },
+                                        "id": 124,
+                                        "index": 59,
+                                        "locked": false,
+                                        "name": "button",
+                                        "rotate": 0,
+                                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_124.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=ea0c22e406aa9b68d2f8baba479700d2d3bc0865820a09b66179bbdfab875bf8&X-Amz-SignedHeaders=host",
+                                        "type": "fillLayer",
+                                        "visible": true
+                                    }
+                                ],
+                                "id": 126,
+                                "index": 61,
+                                "locked": false,
+                                "name": "button",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_126.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=86a0509396f1420022e8f0fad8c62189cfc943b1f4a683f92679f80c608d8b48&X-Amz-SignedHeaders=host",
+                                "type": "layerSection",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 480,
+                                    "left": 540,
+                                    "top": 0,
+                                    "width": 640
+                                },
+                                "id": 872,
+                                "index": 57,
+                                "locked": false,
+                                "name": "logo",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_872.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=a560a99350fa0e1ac2fd4aba001568c939873441bede332dc67d1b0b8cedd2b2&X-Amz-SignedHeaders=host",
+                                "type": "layer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 480,
+                                    "left": 540,
+                                    "top": 0,
+                                    "width": 640
+                                },
+                                "id": 1126,
+                                "index": 56,
+                                "locked": false,
+                                "name": "foreground_contain",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "7d1b372f-6135-41ba-8ed3-9d13a4bbc5d0",
+                                    "linked": false,
+                                    "name": "foreground.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1126.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=cfd2cd17674c9f1933c60fa3a581d5743e3a3e29b4ec13d6535b80566d30869d&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 480,
+                                    "left": 540,
+                                    "top": 0,
+                                    "width": 640
+                                },
+                                "id": 1051,
+                                "index": 55,
+                                "locked": false,
+                                "name": "background-square_fill",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "ee262542-9942-428f-9cfd-284d24d6957f",
+                                    "linked": false,
+                                    "name": "background-square-orig.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1051.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=eb89a05ef4edd58ce0131ebab4dde5fee3b4b30430d07d9381f7ac84cb9f03f4&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            }
+                        ],
+                        "id": 5,
+                        "index": 64,
+                        "locked": false,
+                        "name": "640x480",
+                        "rotate": 0,
+                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=c1b6d0ac95e79738b0fbed4a59b049dd00722fc238926f4dc431c39d312c8804&X-Amz-SignedHeaders=host",
+                        "type": "layerSection",
+                        "visible": true
+                    },
+                    {
+                        "blendOptions": {
+                            "blendMode": "normal",
+                            "opacity": 100
+                        },
+                        "bounds": {
+                            "height": 250,
+                            "left": 0,
+                            "top": 640,
+                            "width": 970
+                        },
+                        "children": [
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 250,
+                                    "left": 0,
+                                    "top": 640,
+                                    "width": 970
+                                },
+                                "id": 62,
+                                "index": 52,
+                                "locked": false,
+                                "name": "A short and sweet title!",
+                                "rotate": 0,
+                                "text": {
+                                    "characterStyles": [
+                                        {
+                                            "fontAvailable": false,
+                                            "fontColor": {
+                                                "rgb": {
+                                                    "blue": 32768,
+                                                    "green": 32768,
+                                                    "red": 32768
+                                                }
+                                            },
+                                            "fontName": "AdobeClean-ExtraBold",
+                                            "fontSize": 36,
+                                            "orientation": "horizontal"
+                                        }
+                                    ],
+                                    "content": "A short and sweet title!",
+                                    "paragraphStyles": [
+                                        {
+                                            "alignment": "left"
+                                        }
+                                    ],
+                                    "type": "area"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_62.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=f7953f9ab2684d151760fe9c5c4ca96aeb1c36ce9b1b2bf0606bfc7c0d21e1b3&X-Amz-SignedHeaders=host",
+                                "type": "textLayer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 250,
+                                    "left": 0,
+                                    "top": 640,
+                                    "width": 970
+                                },
+                                "id": 61,
+                                "index": 51,
+                                "locked": false,
+                                "name": "A longer description about the product that can wrap over to th",
+                                "rotate": 0.02,
+                                "text": {
+                                    "characterStyles": [
+                                        {
+                                            "fontAvailable": false,
+                                            "fontColor": {
+                                                "rgb": {
+                                                    "blue": 29170,
+                                                    "green": 29170,
+                                                    "red": 29170
+                                                }
+                                            },
+                                            "fontName": "AdobeClean-ExtraBold",
+                                            "fontSize": 16,
+                                            "orientation": "horizontal"
+                                        }
+                                    ],
+                                    "content": "A longer description about the product that can wrap over to three or even four lines.",
+                                    "paragraphStyles": [
+                                        {
+                                            "alignment": "left"
+                                        }
+                                    ],
+                                    "type": "area"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_61.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=4a289f99a25dabd69254d7a8717398bca3aa1310518678af913e1d7b808dce05&X-Amz-SignedHeaders=host",
+                                "type": "textLayer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "passThrough",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 250,
+                                    "left": 0,
+                                    "top": 640,
+                                    "width": 970
+                                },
+                                "children": [
+                                    {
+                                        "blendOptions": {
+                                            "blendMode": "normal",
+                                            "opacity": 100
+                                        },
+                                        "bounds": {
+                                            "height": 250,
+                                            "left": 0,
+                                            "top": 640,
+                                            "width": 970
+                                        },
+                                        "id": 129,
+                                        "index": 49,
+                                        "locked": false,
+                                        "name": "Learn more",
+                                        "rotate": 0,
+                                        "text": {
+                                            "characterStyles": [
+                                                {
+                                                    "fontAvailable": false,
+                                                    "fontColor": {
+                                                        "rgb": {
+                                                            "blue": 32768,
+                                                            "green": 32768,
+                                                            "red": 32768
+                                                        }
+                                                    },
+                                                    "fontName": "AdobeClean-ExtraBold",
+                                                    "fontSize": 14,
+                                                    "orientation": "horizontal"
+                                                }
+                                            ],
+                                            "content": "Learn more",
+                                            "paragraphStyles": [
+                                                {
+                                                    "alignment": "center"
+                                                }
+                                            ],
+                                            "type": "area"
+                                        },
+                                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_129.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=5a27e748b2cf1fcda61cc3c95a53e075e19927265d6c0fefe7ca61774f4c0901&X-Amz-SignedHeaders=host",
+                                        "type": "textLayer",
+                                        "visible": true
+                                    },
+                                    {
+                                        "blendOptions": {
+                                            "blendMode": "normal",
+                                            "opacity": 100
+                                        },
+                                        "bounds": {
+                                            "height": 250,
+                                            "left": 0,
+                                            "top": 640,
+                                            "width": 970
+                                        },
+                                        "fill": {
+                                            "solidColor": {
+                                                "rgb": {
+                                                    "blue": 0,
+                                                    "green": 0,
+                                                    "red": 0
+                                                }
+                                            }
+                                        },
+                                        "id": 128,
+                                        "index": 48,
+                                        "locked": false,
+                                        "name": "button",
+                                        "rotate": 0,
+                                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_128.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=a18b70dbde8cab56e202d11222a9c9172ae5a6ca27a47b7cd22b6a43e9437097&X-Amz-SignedHeaders=host",
+                                        "type": "fillLayer",
+                                        "visible": true
+                                    }
+                                ],
+                                "id": 130,
+                                "index": 50,
+                                "locked": false,
+                                "name": "button",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_130.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=ca8dbb6781f0a9455752e6ae50b5c69508380653071ff252f2c36854a5e7237e&X-Amz-SignedHeaders=host",
+                                "type": "layerSection",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 250,
+                                    "left": 0,
+                                    "top": 640,
+                                    "width": 970
+                                },
+                                "id": 874,
+                                "index": 46,
+                                "locked": false,
+                                "name": "logo",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_874.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=746f12bcdca194dee2a261ad76e552c078618e9943969f6d95367360131fb1eb&X-Amz-SignedHeaders=host",
+                                "type": "layer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 250,
+                                    "left": 0,
+                                    "top": 640,
+                                    "width": 970
+                                },
+                                "id": 1123,
+                                "index": 45,
+                                "locked": false,
+                                "name": "foreground_contain",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "8168c095-88a9-425b-a219-ca9d7561f251",
+                                    "linked": false,
+                                    "name": "foreground.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1123.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=c095551d3cdb9ea5df6b7c282d13a11db9a07c06733c495e62cfdbd31bf260c2&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 250,
+                                    "left": 0,
+                                    "top": 640,
+                                    "width": 970
+                                },
+                                "id": 1045,
+                                "index": 44,
+                                "locked": false,
+                                "name": "background-landscape_fill",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "36d07460-a160-4d03-8654-09bc22f77d33",
+                                    "linked": false,
+                                    "name": "background-landscape-orig.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1045.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=1c7d9d1daa8120f1bc488181ecb8af49af481bdee3a741992accc4578ccecc22&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            }
+                        ],
+                        "id": 7,
+                        "index": 53,
+                        "locked": false,
+                        "name": "970x250",
+                        "rotate": 0,
+                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=d375f0d011f931c7612875b63269537b684d525c29e2b89d51170b702c583f3b&X-Amz-SignedHeaders=host",
+                        "type": "layerSection",
+                        "visible": true
+                    },
+                    {
+                        "blendOptions": {
+                            "blendMode": "normal",
+                            "opacity": 100
+                        },
+                        "bounds": {
+                            "height": 600,
+                            "left": 0,
+                            "top": 0,
+                            "width": 160
+                        },
+                        "children": [
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 600,
+                                    "left": 0,
+                                    "top": 0,
+                                    "width": 160
+                                },
+                                "id": 968,
+                                "index": 41,
+                                "locked": false,
+                                "name": "Do it all with Acrobat.",
+                                "rotate": 0,
+                                "text": {
+                                    "characterStyles": [
+                                        {
+                                            "fontAvailable": false,
+                                            "fontColor": {
+                                                "rgb": {
+                                                    "blue": 32768,
+                                                    "green": 32768,
+                                                    "red": 32768
+                                                }
+                                            },
+                                            "fontName": "AdobeClean-ExtraBold",
+                                            "fontSize": 22,
+                                            "orientation": "horizontal"
+                                        }
+                                    ],
+                                    "content": "A short and sweet title!",
+                                    "paragraphStyles": [
+                                        {
+                                            "alignment": "left"
+                                        }
+                                    ],
+                                    "type": "area"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_968.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=c450909e15039106433fa1f5eee955a2c6e6d1c4d7d1ff2cd76907e81be16d0a&X-Amz-SignedHeaders=host",
+                                "type": "textLayer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 600,
+                                    "left": 0,
+                                    "top": 0,
+                                    "width": 160
+                                },
+                                "id": 63,
+                                "index": 40,
+                                "locked": false,
+                                "name": "The shortest description for limited space.",
+                                "rotate": 0,
+                                "text": {
+                                    "characterStyles": [
+                                        {
+                                            "fontAvailable": false,
+                                            "fontColor": {
+                                                "rgb": {
+                                                    "blue": 29170,
+                                                    "green": 29170,
+                                                    "red": 29170
+                                                }
+                                            },
+                                            "fontName": "AdobeClean-ExtraBold",
+                                            "fontSize": 16,
+                                            "orientation": "horizontal"
+                                        }
+                                    ],
+                                    "content": "The shortest description for limited space.",
+                                    "paragraphStyles": [
+                                        {
+                                            "alignment": "left"
+                                        }
+                                    ],
+                                    "type": "area"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_63.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=7c4179359950ca3022ab4341dea11f3382479ac70bb9db982ac659e7c17599e4&X-Amz-SignedHeaders=host",
+                                "type": "textLayer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "passThrough",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 600,
+                                    "left": 0,
+                                    "top": 0,
+                                    "width": 160
+                                },
+                                "children": [
+                                    {
+                                        "blendOptions": {
+                                            "blendMode": "normal",
+                                            "opacity": 100
+                                        },
+                                        "bounds": {
+                                            "height": 600,
+                                            "left": 0,
+                                            "top": 0,
+                                            "width": 160
+                                        },
+                                        "id": 137,
+                                        "index": 38,
+                                        "locked": false,
+                                        "name": "Learn more",
+                                        "rotate": 0,
+                                        "text": {
+                                            "characterStyles": [
+                                                {
+                                                    "fontAvailable": false,
+                                                    "fontColor": {
+                                                        "rgb": {
+                                                            "blue": 32768,
+                                                            "green": 32768,
+                                                            "red": 32768
+                                                        }
+                                                    },
+                                                    "fontName": "AdobeClean-ExtraBold",
+                                                    "fontSize": 14,
+                                                    "orientation": "horizontal"
+                                                }
+                                            ],
+                                            "content": "Learn more",
+                                            "paragraphStyles": [
+                                                {
+                                                    "alignment": "center"
+                                                }
+                                            ],
+                                            "type": "area"
+                                        },
+                                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_137.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=52fec34f65ed39a5d350a223484d358129efa6758476c419fec10ae297a578cd&X-Amz-SignedHeaders=host",
+                                        "type": "textLayer",
+                                        "visible": true
+                                    },
+                                    {
+                                        "blendOptions": {
+                                            "blendMode": "normal",
+                                            "opacity": 100
+                                        },
+                                        "bounds": {
+                                            "height": 600,
+                                            "left": 0,
+                                            "top": 0,
+                                            "width": 160
+                                        },
+                                        "fill": {
+                                            "solidColor": {
+                                                "rgb": {
+                                                    "blue": 0,
+                                                    "green": 0,
+                                                    "red": 0
+                                                }
+                                            }
+                                        },
+                                        "id": 136,
+                                        "index": 37,
+                                        "locked": false,
+                                        "name": "button",
+                                        "rotate": 0,
+                                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_136.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=7e3137a4a31be7373b2a1154d6e4c3f21dff4d3fb5a66336cf08b5834b47803c&X-Amz-SignedHeaders=host",
+                                        "type": "fillLayer",
+                                        "visible": true
+                                    }
+                                ],
+                                "id": 138,
+                                "index": 39,
+                                "locked": false,
+                                "name": "button",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_138.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=d5ef1df99a9f651a3fcab75e90f28e15882091968e3a78c0018df442b37af904&X-Amz-SignedHeaders=host",
+                                "type": "layerSection",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 600,
+                                    "left": 0,
+                                    "top": 0,
+                                    "width": 160
+                                },
+                                "id": 883,
+                                "index": 35,
+                                "locked": false,
+                                "name": "logo-square",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_883.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=0b2c3e16aecc0aacc1cf0d737ea1807804e05864ccf2c3464e5eaf1d32b3d7bf&X-Amz-SignedHeaders=host",
+                                "type": "layer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 600,
+                                    "left": 0,
+                                    "top": 0,
+                                    "width": 160
+                                },
+                                "id": 1120,
+                                "index": 34,
+                                "locked": false,
+                                "name": "foreground_contain",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "db0643aa-32b9-4b7c-9114-efbaebb11591",
+                                    "linked": false,
+                                    "name": "foreground.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1120.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=b7b7293f40b1682b3dfb86ddab059b131c4c7c348b9b1248cc55cc0d8f89085f&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 600,
+                                    "left": 0,
+                                    "top": 0,
+                                    "width": 160
+                                },
+                                "id": 1054,
+                                "index": 33,
+                                "locked": false,
+                                "name": "background-portrait_fill",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "3a57d500-61ca-4881-8357-5ad4ad6d78b5",
+                                    "linked": false,
+                                    "name": "background-portrait-orig.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1054.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=eb92079258f7b8eec4624ab79f68b7d406716f614227ad09c2076087b3e7c94e&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            }
+                        ],
+                        "id": 9,
+                        "index": 42,
+                        "locked": false,
+                        "name": "160x600",
+                        "rotate": 0,
+                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=4924c236b91d9050be38eed12f5d034da2cd739595f176d25f2d4ada74fe2985&X-Amz-SignedHeaders=host",
+                        "type": "layerSection",
+                        "visible": true
+                    },
+                    {
+                        "blendOptions": {
+                            "blendMode": "normal",
+                            "opacity": 100
+                        },
+                        "bounds": {
+                            "height": 250,
+                            "left": 0,
+                            "top": 930,
+                            "width": 300
+                        },
+                        "children": [
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 250,
+                                    "left": 0,
+                                    "top": 930,
+                                    "width": 300
+                                },
+                                "id": 67,
+                                "index": 30,
+                                "locked": false,
+                                "name": "The shortest description for limited space.",
+                                "rotate": 0,
+                                "text": {
+                                    "characterStyles": [
+                                        {
+                                            "fontAvailable": false,
+                                            "fontColor": {
+                                                "rgb": {
+                                                    "blue": 32768,
+                                                    "green": 32768,
+                                                    "red": 32768
+                                                }
+                                            },
+                                            "fontName": "AdobeClean-ExtraBold",
+                                            "fontSize": 26,
+                                            "orientation": "horizontal"
+                                        }
+                                    ],
+                                    "content": "The shortest description for limited space.",
+                                    "paragraphStyles": [
+                                        {
+                                            "alignment": "left"
+                                        }
+                                    ],
+                                    "type": "area"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_67.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=6b7dd32bc71b944fdc2ae8819b0de177978d4113f38dbf245b51eb97d6c167d6&X-Amz-SignedHeaders=host",
+                                "type": "textLayer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "passThrough",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 250,
+                                    "left": 0,
+                                    "top": 930,
+                                    "width": 300
+                                },
+                                "children": [
+                                    {
+                                        "blendOptions": {
+                                            "blendMode": "normal",
+                                            "opacity": 100
+                                        },
+                                        "bounds": {
+                                            "height": 250,
+                                            "left": 0,
+                                            "top": 930,
+                                            "width": 300
+                                        },
+                                        "id": 141,
+                                        "index": 28,
+                                        "locked": false,
+                                        "name": "Learn more",
+                                        "rotate": 0,
+                                        "text": {
+                                            "characterStyles": [
+                                                {
+                                                    "fontAvailable": false,
+                                                    "fontColor": {
+                                                        "rgb": {
+                                                            "blue": 32768,
+                                                            "green": 32768,
+                                                            "red": 32768
+                                                        }
+                                                    },
+                                                    "fontName": "AdobeClean-ExtraBold",
+                                                    "fontSize": 14,
+                                                    "orientation": "horizontal"
+                                                }
+                                            ],
+                                            "content": "Learn more",
+                                            "paragraphStyles": [
+                                                {
+                                                    "alignment": "center"
+                                                }
+                                            ],
+                                            "type": "area"
+                                        },
+                                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_141.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=c641b0680174ed89fd08f73edee9802df0d3f25af65cb9166d75a17890a0135e&X-Amz-SignedHeaders=host",
+                                        "type": "textLayer",
+                                        "visible": true
+                                    },
+                                    {
+                                        "blendOptions": {
+                                            "blendMode": "normal",
+                                            "opacity": 100
+                                        },
+                                        "bounds": {
+                                            "height": 250,
+                                            "left": 0,
+                                            "top": 930,
+                                            "width": 300
+                                        },
+                                        "fill": {
+                                            "solidColor": {
+                                                "rgb": {
+                                                    "blue": 0,
+                                                    "green": 0,
+                                                    "red": 0
+                                                }
+                                            }
+                                        },
+                                        "id": 140,
+                                        "index": 27,
+                                        "locked": false,
+                                        "name": "button",
+                                        "rotate": 0,
+                                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_140.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=17a6c937336295447710b43016d2245d0f0261d1d92f0a863b45269018320792&X-Amz-SignedHeaders=host",
+                                        "type": "fillLayer",
+                                        "visible": true
+                                    }
+                                ],
+                                "id": 142,
+                                "index": 29,
+                                "locked": false,
+                                "name": "button",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_142.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=21a0677ca73f61b4660db3b2b0e83a7b383f12e3f9d5ea2cc599fa25b929bbeb&X-Amz-SignedHeaders=host",
+                                "type": "layerSection",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 250,
+                                    "left": 0,
+                                    "top": 930,
+                                    "width": 300
+                                },
+                                "id": 882,
+                                "index": 25,
+                                "locked": false,
+                                "name": "logo-square",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_882.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=333772e1815adf144e572fed4e7affb113085eb40bd081bcafa9bb7c0f74544f&X-Amz-SignedHeaders=host",
+                                "type": "layer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 250,
+                                    "left": 0,
+                                    "top": 930,
+                                    "width": 300
+                                },
+                                "id": 1117,
+                                "index": 24,
+                                "locked": false,
+                                "name": "foreground_contain",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "fa70f9aa-f522-4000-8154-1d9ffca90ecb",
+                                    "linked": false,
+                                    "name": "foreground.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1117.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=05adb28d3fec2305e11f66679e97851b04f41e5455b09aafc870fb105363f516&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 250,
+                                    "left": 0,
+                                    "top": 930,
+                                    "width": 300
+                                },
+                                "id": 1048,
+                                "index": 23,
+                                "locked": false,
+                                "name": "background-square_fill",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "a03099d2-afe4-4ab3-8936-506cecf03927",
+                                    "linked": false,
+                                    "name": "background-square-orig.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1048.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=ef8df3d007cc000e219d263695e9fc9410e67033a20200a57702830936ee1c61&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            }
+                        ],
+                        "id": 11,
+                        "index": 31,
+                        "locked": false,
+                        "name": "300x250",
+                        "rotate": 0,
+                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_11.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=d1177593d10ff18352f71fc0f3f5e256fb4191cbc2e540d9c7aa226a19ffcf6c&X-Amz-SignedHeaders=host",
+                        "type": "layerSection",
+                        "visible": true
+                    },
+                    {
+                        "blendOptions": {
+                            "blendMode": "normal",
+                            "opacity": 100
+                        },
+                        "bounds": {
+                            "height": 50,
+                            "left": 880,
+                            "top": 550,
+                            "width": 300
+                        },
+                        "children": [
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 50,
+                                    "left": 880,
+                                    "top": 550,
+                                    "width": 300
+                                },
+                                "id": 66,
+                                "index": 20,
+                                "locked": false,
+                                "name": "The shortest description for limited space.",
+                                "rotate": 0,
+                                "text": {
+                                    "characterStyles": [
+                                        {
+                                            "fontAvailable": false,
+                                            "fontColor": {
+                                                "rgb": {
+                                                    "blue": 32768,
+                                                    "green": 32768,
+                                                    "red": 32768
+                                                }
+                                            },
+                                            "fontName": "AdobeClean-ExtraBold",
+                                            "fontSize": 14,
+                                            "orientation": "horizontal"
+                                        }
+                                    ],
+                                    "content": "The shortest description for limited space.",
+                                    "paragraphStyles": [
+                                        {
+                                            "alignment": "left"
+                                        }
+                                    ],
+                                    "type": "area"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_66.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=6c4048693ad28000b2b39f22feaca66cb4eed804ab8440120502e32429d27d24&X-Amz-SignedHeaders=host",
+                                "type": "textLayer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 50,
+                                    "left": 880,
+                                    "top": 550,
+                                    "width": 300
+                                },
+                                "id": 886,
+                                "index": 19,
+                                "locked": false,
+                                "name": "logo-square",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_886.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=ab90386ac6b63f926311fabc54f9d252390323a2212d6d09759a61c94f690919&X-Amz-SignedHeaders=host",
+                                "type": "layer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 50,
+                                    "left": 880,
+                                    "top": 550,
+                                    "width": 300
+                                },
+                                "id": 1114,
+                                "index": 18,
+                                "locked": false,
+                                "name": "foreground_contain",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "0214f4dd-4949-430b-9859-eacbfe067797",
+                                    "linked": false,
+                                    "name": "foreground.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1114.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=6719b88aec78a98d752b2066723fe948960fd1d83d5c7fc1b54812b00783f2fb&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 50,
+                                    "left": 880,
+                                    "top": 550,
+                                    "width": 300
+                                },
+                                "id": 1042,
+                                "index": 17,
+                                "locked": false,
+                                "name": "background-landscape_fill",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "03fb607e-11d9-4141-874e-fe1c3632155f",
+                                    "linked": false,
+                                    "name": "background-landscape-orig.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1042.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=e8dfba3d7258ab4915486ac4d67ff40a1d5590b8c04b5eca1d9ff132833038d1&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            }
+                        ],
+                        "id": 13,
+                        "index": 21,
+                        "locked": false,
+                        "name": "300x50",
+                        "rotate": 0,
+                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_13.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=f43ba352a39f88f1ff50a9c0df81969a04bd37153e24cd9f58f2af4f5b3bf4eb&X-Amz-SignedHeaders=host",
+                        "type": "layerSection",
+                        "visible": true
+                    },
+                    {
+                        "blendOptions": {
+                            "blendMode": "normal",
+                            "opacity": 100
+                        },
+                        "bounds": {
+                            "height": 50,
+                            "left": 540,
+                            "top": 550,
+                            "width": 320
+                        },
+                        "children": [
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 50,
+                                    "left": 540,
+                                    "top": 550,
+                                    "width": 320
+                                },
+                                "id": 65,
+                                "index": 14,
+                                "locked": false,
+                                "name": "The shortest description for limited space.",
+                                "rotate": 0,
+                                "text": {
+                                    "characterStyles": [
+                                        {
+                                            "fontAvailable": false,
+                                            "fontColor": {
+                                                "rgb": {
+                                                    "blue": 32768,
+                                                    "green": 32768,
+                                                    "red": 32768
+                                                }
+                                            },
+                                            "fontName": "AdobeClean-ExtraBold",
+                                            "fontSize": 14,
+                                            "orientation": "horizontal"
+                                        }
+                                    ],
+                                    "content": "The shortest description for limited space.",
+                                    "paragraphStyles": [
+                                        {
+                                            "alignment": "left"
+                                        }
+                                    ],
+                                    "type": "area"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_65.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=0eb88a979a2bea607f37e3d13a726dff78360e10d705a2f5685b32fc4f302a3c&X-Amz-SignedHeaders=host",
+                                "type": "textLayer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 50,
+                                    "left": 540,
+                                    "top": 550,
+                                    "width": 320
+                                },
+                                "id": 885,
+                                "index": 13,
+                                "locked": false,
+                                "name": "logo-square",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_885.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=ee5c75edb97e34cbe82bdd3622e7344874787a9548078f4c51289cdf60ae700b&X-Amz-SignedHeaders=host",
+                                "type": "layer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 50,
+                                    "left": 540,
+                                    "top": 550,
+                                    "width": 320
+                                },
+                                "id": 1111,
+                                "index": 12,
+                                "locked": false,
+                                "name": "foreground_contain",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "38959651-8f47-47bc-a3c0-6731bd16dd87",
+                                    "linked": false,
+                                    "name": "foreground.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1111.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=f03804de6e9fdcf4095348762ad5534c8d6bdcf363b459fae021b894dd8a45a6&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 50,
+                                    "left": 540,
+                                    "top": 550,
+                                    "width": 320
+                                },
+                                "id": 1039,
+                                "index": 11,
+                                "locked": false,
+                                "name": "background-landscape_fill",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "8afca5fc-6877-4af8-b1e5-90fad96f7cfe",
+                                    "linked": false,
+                                    "name": "background-landscape-orig.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1039.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=3246631f6ee1478c3bb3a8f31cfed2cf8ae36aaedbf1f9c7c5d80945a9013494&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            }
+                        ],
+                        "id": 17,
+                        "index": 15,
+                        "locked": false,
+                        "name": "320x50",
+                        "rotate": 0,
+                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_17.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=8dc58caa3270d61392876aa05f96686dec13b5f5cfb84365e424ced15eee2483&X-Amz-SignedHeaders=host",
+                        "type": "layerSection",
+                        "visible": true
+                    },
+                    {
+                        "blendOptions": {
+                            "blendMode": "normal",
+                            "opacity": 100
+                        },
+                        "bounds": {
+                            "height": 90,
+                            "left": 335,
+                            "top": 930,
+                            "width": 728
+                        },
+                        "children": [
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 90,
+                                    "left": 335,
+                                    "top": 930,
+                                    "width": 728
+                                },
+                                "id": 64,
+                                "index": 8,
+                                "locked": false,
+                                "name": "The shortest description for limited space.",
+                                "rotate": 0,
+                                "text": {
+                                    "characterStyles": [
+                                        {
+                                            "fontAvailable": false,
+                                            "fontColor": {
+                                                "rgb": {
+                                                    "blue": 32768,
+                                                    "green": 32768,
+                                                    "red": 32768
+                                                }
+                                            },
+                                            "fontName": "AdobeClean-ExtraBold",
+                                            "fontSize": 30,
+                                            "orientation": "horizontal"
+                                        }
+                                    ],
+                                    "content": "The shortest description for limited space.",
+                                    "paragraphStyles": [
+                                        {
+                                            "alignment": "left"
+                                        }
+                                    ],
+                                    "type": "area"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_64.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=cb2bfe66b774e6dd07ba38588d16b6fd6034bc6a979fe51291ea686cee3ec37c&X-Amz-SignedHeaders=host",
+                                "type": "textLayer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "passThrough",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 90,
+                                    "left": 335,
+                                    "top": 930,
+                                    "width": 728
+                                },
+                                "children": [
+                                    {
+                                        "blendOptions": {
+                                            "blendMode": "normal",
+                                            "opacity": 100
+                                        },
+                                        "bounds": {
+                                            "height": 90,
+                                            "left": 335,
+                                            "top": 930,
+                                            "width": 728
+                                        },
+                                        "id": 133,
+                                        "index": 6,
+                                        "locked": false,
+                                        "name": "Learn more",
+                                        "rotate": 0,
+                                        "text": {
+                                            "characterStyles": [
+                                                {
+                                                    "fontAvailable": false,
+                                                    "fontColor": {
+                                                        "rgb": {
+                                                            "blue": 32768,
+                                                            "green": 32768,
+                                                            "red": 32768
+                                                        }
+                                                    },
+                                                    "fontName": "AdobeClean-ExtraBold",
+                                                    "fontSize": 14,
+                                                    "orientation": "horizontal"
+                                                }
+                                            ],
+                                            "content": "Learn more",
+                                            "paragraphStyles": [
+                                                {
+                                                    "alignment": "center"
+                                                }
+                                            ],
+                                            "type": "area"
+                                        },
+                                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_133.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=0f40c0020873144d93d6cdc5b5488f058de1e09ac9de395cbabe60ae439013a3&X-Amz-SignedHeaders=host",
+                                        "type": "textLayer",
+                                        "visible": true
+                                    },
+                                    {
+                                        "blendOptions": {
+                                            "blendMode": "normal",
+                                            "opacity": 100
+                                        },
+                                        "bounds": {
+                                            "height": 90,
+                                            "left": 335,
+                                            "top": 930,
+                                            "width": 728
+                                        },
+                                        "fill": {
+                                            "solidColor": {
+                                                "rgb": {
+                                                    "blue": 0,
+                                                    "green": 0,
+                                                    "red": 0
+                                                }
+                                            }
+                                        },
+                                        "id": 132,
+                                        "index": 5,
+                                        "locked": false,
+                                        "name": "button",
+                                        "rotate": 0,
+                                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_132.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=3ae16332d4a7c88353d937d617dd270d9509bfd1e54d85ca1003a8a11316c3bc&X-Amz-SignedHeaders=host",
+                                        "type": "fillLayer",
+                                        "visible": true
+                                    }
+                                ],
+                                "id": 134,
+                                "index": 7,
+                                "locked": false,
+                                "name": "button",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_134.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=8dc8b2f81784f4974d7bcaffb397a1d491c9a3f014579400bf575bb649937f4e&X-Amz-SignedHeaders=host",
+                                "type": "layerSection",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 90,
+                                    "left": 335,
+                                    "top": 930,
+                                    "width": 728
+                                },
+                                "id": 884,
+                                "index": 3,
+                                "locked": false,
+                                "name": "logo-square",
+                                "rotate": 0,
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_884.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=14778d7481c3919e81ca7c415a72836ceec6bd4a55e17b56156cbb9de45d2ad1&X-Amz-SignedHeaders=host",
+                                "type": "layer",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 90,
+                                    "left": 335,
+                                    "top": 930,
+                                    "width": 728
+                                },
+                                "id": 1108,
+                                "index": 2,
+                                "locked": false,
+                                "name": "foreground_contain",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "1cabf3b8-4c9d-4188-88fa-eaa9e0fba1a5",
+                                    "linked": false,
+                                    "name": "foreground.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1108.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=d8f5fdc0971a85552c4b8a8bcf6bc5f10e0739eb4914a0bb8cc6368e897c7348&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            },
+                            {
+                                "blendOptions": {
+                                    "blendMode": "normal",
+                                    "opacity": 100
+                                },
+                                "bounds": {
+                                    "height": 90,
+                                    "left": 335,
+                                    "top": 930,
+                                    "width": 728
+                                },
+                                "id": 1036,
+                                "index": 1,
+                                "locked": false,
+                                "name": "background-landscape_fill",
+                                "rotate": 0,
+                                "smartObject": {
+                                    "instanceId": "4db234ed-bbdf-4404-9174-3a9e4b6d51fa",
+                                    "linked": false,
+                                    "name": "background-landscape-orig.psb",
+                                    "type": "image/vnd.adobe.photoshop"
+                                },
+                                "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_1036.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=8b054458097a2db1121c5c79db7637ffbf7392725e6f812f147cba0ebdb51c96&X-Amz-SignedHeaders=host",
+                                "type": "smartObject",
+                                "visible": true
+                            }
+                        ],
+                        "id": 19,
+                        "index": 9,
+                        "locked": false,
+                        "name": "728x90",
+                        "rotate": 0,
+                        "thumbnail": "https://cis-asset-storage-prod.s3.us-east-1.amazonaws.com/output/document_manifest/88643a9e-884a-4352-8738-965809e0718d/4dfd4e71-8f5e-45a8-81c9-e4c30ec4e042/ID_19.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARALHCEZRCZYL4QZ6%2F20250111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250111T142954Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEvFG1f8Ir5zgzP1Y69JBkdg%2FVqYZSeexGGkYm59CZhIAiEAx6b9yuGHHuycJNmLQBzm7oEOMak4Xma9y%2BRJW5JkmhAq1gIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNjk0NzI0OTUyMDIiDFcaLTAQo3%2BTQhb2GyqqAv%2F8dfWIs%2BfZb3wkoIH5YEq8ehjgRe9xUT8w34wWhTrz8M0TucQF6YJPAiZpLczkzYnYJdvUZ6SFhkaTUOKENQQ8eeeUdQDKJU35zMF5sWAdtlLro7TvUsFjUr73eR5uDUY8bcoFikNEVxEvFIScgDGPNXuSqb8EBHOVWFMfu%2FBWFeR2%2Bju5j5JWs%2FOweKeXuNjhYAL9tj6w%2FlIYmIImuyd2ST%2FyNCt3gO113lzeHpc%2B6O%2BHT5keeHQo0gjaVf9gF45IRUkktFRUtnQ0bXaKsTOdKZOpzFxdHP0JtrhvSloIXGB%2B7%2BvYeOxbk9GGtL%2B4iW5MKWeRpdYfJuF3swwWAWw40XP7t1mMBMfBY3fTEQJv586qwaPmllLranq7ZD3bH0Su3B0Jgnvoyisw0PyJvAY6nQHvIEL2iKluySoOOrJzABRQw1kqpQu8l%2BSfIpYi%2FO4LwagY6Xa9%2F4M4aeE7mOyDFBAdhakEhsoL0B9fn6bHheIyRHsQdGeV3taonCb6MRZon0HQpq97dKSLTAyau7n4oVpBaWgGOIC0NMYN7erVB6cyeHS%2BMAD23Styuq%2B7ynT1k%2B%2F861CceqyTJRtwekqzG%2BLkoj%2Fh%2FZbMxWWCSZgQ&X-Amz-Signature=07003a3d17a986ff86f1daca6e09ebe39f491313fbe69ab26058d73662cbbc65&X-Amz-SignedHeaders=host",
+                        "type": "layerSection",
+                        "visible": true
+                    }
+                ],
+                "document": {
+                    "bitDepth": 8,
+                    "height": 1180,
+                    "iccProfileName": "sRGB IEC61966-2.1",
+                    "imageMode": "rgb",
+                    "name": "psd.psd",
+                    "photoshopBuild": "Adobe Photoshop 25.1 (Macintosh)",
+                    "width": 1180
+                }
+            }
+        ],
+        "_links": {
+            "self": {
+                "href": "https://image.adobe.io/pie/psdService/status/88643a9e-884a-4352-8738-965809e0718d"
+            }
+        }
+    }
+}

@@ -4,18 +4,26 @@ import axios from "axios";
 import PropTypes from "prop-types";
 import { Handle, Position } from "reactflow";
 import { BASE_URL } from "../../../config";
+import convertPsdToJpg from "../../utlis/psdToJpg";
 
 const UploadImage = (props) => {
   const { data, setUserData } = props;
   const label = data?.label;
   const [fileName, setFileName] = useState("");
+  const [fileType, setFileType] = useState("image"); // Default to "image"
   const [selectedImage, setSelectedImage] = useState(null);
   const [apiUrl, setApiUrl] = useState(null);
   const [imageUrl, setImageUrl] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [psdView, setPsdView] = useState(null);
+  const [successMessage, setSuccessMessage] = useState(null);
 
   const handleImageName = (e) => {
     setFileName(e.target.value);
+  };
+
+  const handleFileTypeChange = (e) => {
+    setFileType(e.target.value); // Update file type
   };
 
   const handleImageChange = (e) => {
@@ -27,13 +35,13 @@ const UploadImage = (props) => {
 
   const handleCreateFile = async () => {
     setIsLoading(true);
+    const extension = fileType === "image" ? ".jpg" : ".psd"; // Determine file extension
     try {
       const response = await axios.post(
-        `https://786177-dragonfly.adobeio-static.net/api/v1/web/Dragonfly/storage?operation=putObject&fileName=${fileName}.jpg`
+        `https://786177-dragonfly.adobeio-static.net/api/v1/web/Dragonfly/storage?operation=putObject&fileName=${fileName}${extension}`
       );
 
       if (response.status === 200) {
-        console.log("create file: " + response.data.url);
         setUserData((prev) => ({
           ...prev,
           files: { createFile: response.data.url, getFile: "" },
@@ -73,9 +81,10 @@ const UploadImage = (props) => {
 
   const handleGetFile = async () => {
     setIsLoading(true);
+    const extension = fileType === "image" ? ".jpg" : ".psd";
     try {
       const response = await axios.get(
-        `https://786177-dragonfly.adobeio-static.net/api/v1/web/Dragonfly/storage?operation=getObject&fileName=${fileName}.jpg`
+        `https://786177-dragonfly.adobeio-static.net/api/v1/web/Dragonfly/storage?operation=getObject&fileName=${fileName}${extension}`
       );
 
       if (response.status === 200) {
@@ -84,6 +93,20 @@ const UploadImage = (props) => {
           files: { ...prev.files, getFile: response.data.url },
         }));
         setImageUrl(response.data.url);
+
+        if (fileType === "psd") {
+          fetch(response.data.url)
+            .then((res) => res.arrayBuffer())
+            .then((buffer) => convertPsdToJpg(buffer))
+            .then((jpgData) => {
+              setPsdView(jpgData);
+            })
+            .catch((error) => console.error("Conversion failed:", error));
+        }
+
+        setSuccessMessage(
+          `File '${fileName}${extension}' successfully updated.`
+        );
       }
     } catch (error) {
       console.error("API Error:", error);
@@ -112,6 +135,14 @@ const UploadImage = (props) => {
             onChange={handleImageName}
             className="input"
           />
+          <select
+            value={fileType}
+            onChange={handleFileTypeChange}
+            className="input"
+          >
+            <option value="image">Image (.jpg)</option>
+            <option value="psd">PSD (.psd)</option>
+          </select>
           <div>
             <button className="uploadButton" onClick={handleCreateFile}>
               Create File
@@ -122,10 +153,12 @@ const UploadImage = (props) => {
 
       {apiUrl && !imageUrl && !isLoading && (
         <div className={styles.uploadBlock}>
-          <h1 className="header">Upload Image</h1>
+          <h1 className="header">
+            Upload {fileType === "image" ? "Image" : "PSD"}
+          </h1>
           <input
             type="file"
-            accept="image/*"
+            accept={fileType === "image" ? "image/*" : ".psd"}
             onChange={handleImageChange}
             className="uploadBlock"
           />
@@ -134,19 +167,28 @@ const UploadImage = (props) => {
             onClick={handleUploadImage}
             disabled={!selectedImage}
           >
-            Upload Image
+            Upload {fileType === "image" ? "Image" : "PSD"}
           </button>
         </div>
       )}
 
       {imageUrl && (
         <div className={styles.imagePreview}>
-          <div className="header">Uploaded Image Preview</div>
-          <img src={imageUrl} alt="Uploaded" className={styles.previewImage} />
+          <div className="header">
+            Uploaded {fileType.toUpperCase()} Preview
+          </div>
+          {fileType === "image" ? (
+            <img
+              src={imageUrl}
+              alt="Uploaded"
+              className={styles.previewImage}
+            />
+          ) : (
+            <div className={styles.successMessage}>{successMessage}</div>
+          )}
           <Handle type="source" position={Position.Right} />
         </div>
       )}
-      {/* <Handle type="source" position={Position.Right} /> */}
     </div>
   );
 };
