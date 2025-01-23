@@ -2,41 +2,57 @@ import { useState } from "react";
 import styles from "./index.module.css";
 import axios from "axios";
 import PropTypes from "prop-types";
-import { Handle, Position } from "reactflow";
-import { BASE_URL } from "../../../config";
-import convertPsdToJpg from "../../utlis/psdToJpg";
-import { Button } from "@adobe/react-spectrum";
+import {
+  ActionButton,
+  Button,
+  ButtonGroup,
+  Content,
+  Dialog,
+  DialogTrigger,
+  Divider,
+  Flex,
+  Heading,
+  Text,
+  TextField,
+  Picker,
+  Item,
+} from "@adobe/react-spectrum";
+import { Handle, Position, useReactFlow } from "reactflow";
+import { ToastQueue } from "@react-spectrum/toast";
 
-const UploadImage = (props) => {
+export const CreateFileNode = (props) => {
+    const { setNodes, setEdges } = useReactFlow();
   const { data, setUserData } = props;
-  const label = data?.label;
   const [fileName, setFileName] = useState("");
-  const [fileType, setFileType] = useState("image"); // Default to "image"
-  const [selectedImage, setSelectedImage] = useState(null);
-  const [apiUrl, setApiUrl] = useState(null);
-  const [imageUrl, setImageUrl] = useState(null);
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const [fileType, setFileType] = useState("image");
   const [isLoading, setIsLoading] = useState(false);
-  const [psdView, setPsdView] = useState(null);
-  const [successMessage, setSuccessMessage] = useState(null);
+  const [isFileCreated, setIsFileCreated] = useState(false);
 
-  const handleImageName = (e) => {
-    setFileName(e.target.value);
+  const handleClick = () => {
+    setDialogOpen(true);
   };
 
-  const handleFileTypeChange = (e) => {
-    setFileType(e.target.value); // Update file type
+  const closeDialog = () => {
+    setDialogOpen(false);
   };
 
-  const handleImageChange = (e) => {
-    const file = e.target.files[0];
-    if (file) {
-      setSelectedImage(file);
-    }
+  const handleInputChange = (value) => {
+    setFileName(value);
+  };
+
+  const handleFileTypeChange = (value) => {
+    setFileType(value);
   };
 
   const handleCreateFile = async () => {
+    if (!fileName) {
+      ToastQueue.negative("Please enter a file name", { timeout: 2000 });
+      return;
+    }
+
     setIsLoading(true);
-    const extension = fileType === "image" ? ".jpg" : ".psd"; // Determine file extension
+    const extension = fileType === "image" ? ".jpg" : ".psd";
     try {
       const response = await axios.post(
         `https://786177-dragonfly.adobeio-static.net/api/v1/web/Dragonfly/storage?operation=putObject&fileName=${fileName}${extension}`
@@ -45,157 +61,125 @@ const UploadImage = (props) => {
       if (response.status === 200) {
         setUserData((prev) => ({
           ...prev,
-          files: { createFile: response.data.url, getFile: "" },
+          files: {
+            createFile: response.data.url,
+            fileType: fileType,
+            fileName: `${fileName}${extension}`,
+          },
         }));
-        setApiUrl(response.data.url);
+
+              // Create a new node
+      const newNode = {
+        id: "3", // Make sure IDs are unique
+        data: { label: "Upload File Document" },
+        position: { x: 450, y: 0 },
+        type: "uploadImageNode",
+      };
+
+      // Add the new node
+      setNodes((nds) => nds.concat(newNode));
+
+      const newEdge = {
+        id: `edge-2`, // Unique edge ID
+        source: "2", // Connect from the current node
+        target: "3", // Connect to the new node
+        type: "default", // Edge type
+      };
+
+      // Add the new edge
+      setEdges((eds) => eds.concat(newEdge));
+        
+        ToastQueue.positive("File created successfully!", { timeout: 2000 });
+        setIsFileCreated(true);
+        closeDialog();
       }
     } catch (error) {
       console.error("API Error:", error);
-      alert("Failed to create the file. Please try again.");
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  const handleUploadImage = async () => {
-    if (!apiUrl || !selectedImage) return;
-
-    setIsLoading(true);
-    try {
-      const formData = new FormData();
-      formData.append("file", selectedImage);
-      formData.append("url", apiUrl);
-
-      await axios.post(`${BASE_URL}proxy/upload-image`, formData, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
+      ToastQueue.negative("Failed to create the file. Please try again.", {
+        timeout: 2000,
       });
-      handleGetFile();
-    } catch (error) {
-      console.error("Error:", error);
-      alert("Upload failed");
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  const handleGetFile = async () => {
-    setIsLoading(true);
-    const extension = fileType === "image" ? ".jpg" : ".psd";
-    try {
-      const response = await axios.get(
-        `https://786177-dragonfly.adobeio-static.net/api/v1/web/Dragonfly/storage?operation=getObject&fileName=${fileName}${extension}`
-      );
-
-      if (response.status === 200) {
-        setUserData((prev) => ({
-          ...prev,
-          files: { ...prev.files, getFile: response.data.url },
-        }));
-        setImageUrl(response.data.url);
-
-        if (fileType === "psd") {
-          fetch(response.data.url)
-            .then((res) => res.arrayBuffer())
-            .then((buffer) => convertPsdToJpg(buffer))
-            .then((jpgData) => {
-              setPsdView(jpgData);
-            })
-            .catch((error) => console.error("Conversion failed:", error));
-        }
-
-        setSuccessMessage(
-          `File '${fileName}${extension}' successfully updated.`
-        );
-      }
-    } catch (error) {
-      console.error("API Error:", error);
-      alert("Failed to retrieve the file. Please try again.");
     } finally {
       setIsLoading(false);
     }
   };
 
   return (
-    <div className="container">
-      {isLoading && (
-        <div className="loader">
-          <div className="spinner"></div>
-          <p>Processing, please wait...</p>
-        </div>
-      )}
+    <div style={{ position: "relative" }}>
+      <div
+        className={`${styles.container}`}
+        onClick={handleClick}
+        style={{ background: "#fff" }}
+      >
+        <img src="/logo/folder.png" alt="folder" className={styles.icon} />
+      </div>
 
-      {!apiUrl && !imageUrl && !isLoading && (
-        <div className={styles.createFileBlock}>
-          <h1 className="header">{label}</h1>
-          <input
-            type="text"
-            placeholder="Enter file name"
-            value={fileName}
-            onChange={handleImageName}
-            className="input"
-          />
-          <select
-            value={fileType}
-            onChange={handleFileTypeChange}
-            className="input"
-          >
-            <option value="image">Image (.jpg)</option>
-            <option value="psd">PSD (.psd)</option>
-          </select>
-            <Button variant="accent" onPress={handleCreateFile}>
-              Create File
-            </Button>
-        </div>
-      )}
+      <div className={styles.textContainer}>
+        <p className={styles.subTitle}>Create Document</p>
+      </div>
 
-      {apiUrl && !imageUrl && !isLoading && (
-        <div className={styles.uploadBlock}>
-          <h1 className="header">
-            Upload {fileType === "image" ? "Image" : "PSD"}
-          </h1>
-          <input
-            type="file"
-            accept={fileType === "image" ? "image/*" : ".psd"}
-            onChange={handleImageChange}
-            className="uploadBlock"
-          />
-          <button
-            className="uploadButton"
-            onClick={handleUploadImage}
-            disabled={!selectedImage}
-          >
-            Upload {fileType === "image" ? "Image" : "PSD"}
-          </button>
+      <DialogTrigger isOpen={dialogOpen} onClose={closeDialog}>
+        <div style={{ visibility: "hidden" }}>
+          <ActionButton>Create</ActionButton>
         </div>
-      )}
+        {(close) => (
+          <Dialog>
+            <Heading>
+              <Flex alignItems="center" gap="size-100">
+                <Text>Create a Document</Text>
+              </Flex>
+            </Heading>
+            <Divider />
+            <Content>
+              <TextField
+                label="File Name"
+                autoFocus
+                value={fileName}
+                onChange={handleInputChange}
+                placeholder="Enter file name"
+              />
+              <Picker
+                label="File Type"
+                selectedKey={fileType}
+                onSelectionChange={handleFileTypeChange}
+                width="100%"
+                marginTop="size-100"
+              >
+                <Item key="image">Image (.jpg)</Item>
+                <Item key="psd">PSD (.psd)</Item>
+              </Picker>
+            </Content>
+            <ButtonGroup>
+              <Button variant="secondary" onPress={closeDialog}>
+                Cancel
+              </Button>
+              <Button
+                variant="accent"
+                onPress={handleCreateFile}
+                isDisabled={!fileName || isLoading}
+                isPending={isLoading}
+              >
+                Create
+              </Button>
+            </ButtonGroup>
+          </Dialog>
+        )}
+      </DialogTrigger>
 
-      {imageUrl && (
-        <div className={styles.imagePreview}>
-          <div className="header">
-            Uploaded {fileType.toUpperCase()} Preview
-          </div>
-          {fileType === "image" ? (
-            <img
-              src={imageUrl}
-              alt="Uploaded"
-              className={styles.previewImage}
-            />
-          ) : (
-            <div className={styles.successMessage}>{successMessage}</div>
-          )}
-          <Handle type="source" position={Position.Right} />
-        </div>
-      )}
+      <Handle type="target" position={Position.Left} />
+      <Handle 
+        type="source" 
+        position={Position.Right} 
+        isConnectable={isFileCreated}
+      />
     </div>
   );
 };
 
-UploadImage.propTypes = {
+CreateFileNode.propTypes = {
   data: PropTypes.shape({
-    label: PropTypes.string.isRequired,
-  }).isRequired,
+    label: PropTypes.string,
+  }),
+  setUserData: PropTypes.func.isRequired,
 };
 
-export default UploadImage;
+export default CreateFileNode;

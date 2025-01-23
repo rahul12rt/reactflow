@@ -7,14 +7,21 @@ import {
   ActionButton,
   Button,
   ButtonGroup,
+  Checkbox,
   Content,
   defaultTheme,
   Dialog,
   DialogTrigger,
   Divider,
+  Flex,
+  Footer,
+  Form,
+  Header,
   Heading,
+  Link,
   Provider,
   Text,
+  TextField,
 } from "@adobe/react-spectrum";
 
 function GetToken(props) {
@@ -67,84 +74,77 @@ function GetToken(props) {
   };
 
   return (
-    <section className="wrapper">
-    <div className="container">
-      <h1 className="header">{label}</h1>
-      <div className="body">
-        <input
-          type="text"
-          name="clientId"
-          placeholder="Enter Client ID"
-          value={formState.clientId}
-          onChange={handleInputChange}
-          className="input"
-        />
-        <input
-          type="text"
-          name="secretId"
-          placeholder="Enter Secret ID"
-          value={formState.secretId}
-          onChange={handleInputChange}
-          className="input"
-        />
-        {formState.error && <p className="error">{formState.error}</p>}
-        <Button
-          variant="accent"
-          onPress={handleSubmit}
-        >
-          Generate Token
-        </Button>
-      </div>
-    </div>
-    </section>
-
-    // <DialogTrigger type="fullscreen" isOpen="true" >
-    //   <ActionButton>See Details</ActionButton>
-    //   {(close) => (
-    //         <div style={{
-    //           backgroundImage: "url('/login-bg-large.jpg')",
-    //           backgroundSize: 'cover',
-    //           backgroundPosition: 'center',
-    //           backgroundRepeat: 'no-repeat',
-    //           width: '100%',
-    //           height: '100%',
-    //           minHeight: '500px', position:"relative"}} >
-    //     <Dialog>
-    //       <Content>
-    //         <div className="form">
-    //           <div className="body">
-    //             <input
-    //               type="text"
-    //               name="clientId"
-    //               placeholder="Enter Client ID"
-    //               value={formState.clientId}
-    //               onChange={handleInputChange}
-    //               className="input"
-    //             />
-    //             <input
-    //               type="text"
-    //               name="secretId"
-    //               placeholder="Enter Secret ID"
-    //               value={formState.secretId}
-    //               onChange={handleInputChange}
-    //               className="input"
-    //             />
-    //             {formState.error && <p className="error">{formState.error}</p>}
-    //             <Button variant="accent" onPress={handleSubmit}>
-    //               Generate Token
-    //             </Button>
-    //           </div>
-    //         </div>
-    //       </Content>
-    //       {/* <ButtonGroup>
-    //       <Button variant="secondary" onPress={close}>Cancel</Button>
-    //       <Button variant="accent" onPress={close} autoFocus>Buy</Button>
-    //     </ButtonGroup> */}
-    //     </Dialog>
+    // <section className="wrapper">
+    // <div className="container">
+    //   <h1 className="header" style={{background:"#308FFD"}}>Generate Token</h1>
+    //   <div className="body">
+    //     <div style={{textAlign:"left"}}>
+    //     <label style={{paddingBottom:4, display:"block"}}>Client Id</label>
+    //     <input
+    //       type="text"
+    //       name="clientId"
+    //       value={formState.clientId}
+    //       onChange={handleInputChange}
+    //       className="input"
+    //     />
     //     </div>
-    //   )}
-    // </DialogTrigger>
-
+    //     <div style={{textAlign:"left"}}>
+    //     <label>Client Secret</label>
+    //     <input
+    //       type="text"
+    //       name="secretId"
+    //       value={formState.secretId}
+    //       onChange={handleInputChange}
+    //       className="input"
+    //     />
+    //         </div>
+    //     {formState.error && <p className="error">{formState.error}</p>}
+    //     <Button
+    //       variant="accent"
+    //       onPress={handleSubmit}
+    //     >
+    //       Generate Token
+    //     </Button>
+    //   </div>
+    // </div>
+    // </section>
+    <DialogTrigger>
+  <ActionButton>Register</ActionButton>
+  {(close) => (
+    <Dialog>
+      <Heading>
+        <Flex alignItems="center" gap="size-100">
+          <Text>
+            Register for newsletter
+          </Text>
+        </Flex>
+      </Heading>
+      <Header>
+        <Link>
+          <a href="//example.com" target="_blank">What is this?</a>
+        </Link>
+      </Header>
+      <Divider />
+      <Content>
+        <Form>
+          <TextField label="First Name" autoFocus />
+          <TextField label="Last Name" />
+          <TextField label="Street Address" />
+          <TextField label="City" />
+        </Form>
+      </Content>
+      <Footer>
+        <Checkbox>
+          I want to receive updates for exclusive offers in my area.
+        </Checkbox>
+      </Footer>
+      <ButtonGroup>
+        <Button variant="secondary" onPress={close}>Cancel</Button>
+        <Button variant="accent" onPress={close}>Register</Button>
+      </ButtonGroup>
+    </Dialog>
+  )}
+</DialogTrigger>
   );
 }
 

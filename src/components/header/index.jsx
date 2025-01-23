@@ -16,6 +16,8 @@ function Header({ options, handleSelectChange, selectedValue }) {
   return (
     <div className={styles.container}>
       <img src="/adobe-logo.svg" alt="Adobe Logo" width={68} />
+
+      {/* Dropdown Menu */}
       <div className={styles.selectContainer}>
         <div
           className={`${styles.customSelect} ${isOpen ? styles.active : ""}`}

@@ -55,7 +55,7 @@ const removeBackgroundImage = async (userData, setNodes, setEdges) => {
       ...prevEdges,
       {
         id: `edge-to-${newNodeId}`,
-        source: "3",
+        source: "5",
         target: newNodeId,
         animated: true,
       },

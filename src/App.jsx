@@ -9,7 +9,7 @@ import ReactFlow, {
 import "reactflow/dist/style.css";
 import { initialEdges, initialNodes } from "./constant";
 import GetToken from "./components/generateToken";
-import UploadImage from "./components/uploadImage";
+import CreateFile from "./components/uploadImage";
 import DataService from "./components/dataService";
 import { addEdge } from "reactflow";
 import removeBackgroundImage from "./utlis/removeBackgroundImage";
@@ -20,23 +20,54 @@ import manifest from "./utlis/manifest";
 import CustomCardNode from "./components/customCardNode";
 import psdEdits from "./utlis/psdEdits";
 import Header from "./components/header";
-import { defaultTheme, Provider } from "@adobe/react-spectrum";
+import {  Button, defaultTheme, Provider } from "@adobe/react-spectrum";
 import {ToastContainer} from '@react-spectrum/toast'
+import UploadImageNode from "./components/UploadFile";
+import FilePreviewNode from "./components/filePreviewNode";
+
 
 
 const ImageNode = ({ data }) => {
+  const handleDownload = async () => {
+    if (data.imageUrl) {
+      try {
+        // Fetch the image blob
+        const response = await fetch(data.imageUrl);
+        const blob = await response.blob();
+        
+        // Create a link and trigger download
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = 'background_removed_image.png';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      } catch (error) {
+        console.error('Download failed:', error);
+      }
+    }
+  };
+
   return (
-    <div className="container">
-      <div className="header">Background Removed Preview</div>
+    <div className="container" style={{textAlign:"start", position:"relative"}}>
+      <div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
+      <h3 style={{padding:10}}>Background Removed Preview</h3>
+      <Button variant="accent" onPress={handleDownload}>Download</Button>
+      </div>
+  
       <div className="nodeContainer">
         {data.imageUrl && (
-          <iframe src={data.imageUrl} className="iframeCanvas" />
+          <>
+            <iframe src={data.imageUrl} className="iframeCanvas" />
+          </>
         )}
         <Handle type="target" position={Position.Left} />
       </div>
     </div>
   );
 };
+
+
 
 ImageNode.propTypes = {
   data: PropTypes.shape({
@@ -57,11 +88,11 @@ const App = () => {
   });
 
   const options = [
-    { value: "3", label: "Remove Background", parent:"PS" },
-    { value: "4", label: "Manifest", parent:"PS" },
-    { value: "5", label: "PSD Text edit", parent:"PS" },
+    { value: "5", label: "Remove Background", parent:"FF" },
+    { value: "6", label: "Manifest", parent:"PS" },
+    { value: "7", label: "PSD Text edit", parent:"PS" },
+    { value: "8", label: "Generate Token", parent:"GT" },
   ];
-
   const handleSelectChange = (event) => {
     const selectedId = event.target.value;
     const selectedOption = options.find((opt) => opt.value === selectedId);
@@ -73,7 +104,7 @@ const App = () => {
           id: selectedId,
           data: { 
             ...selectedOption, 
-            options, // Pass all options here 
+            options,
           },
           position: { x: Math.random() * 400, y: Math.random() * 400 },
           type: "dataService",
@@ -95,16 +126,27 @@ const App = () => {
 
   const nodeTypes = useCallback(
     {
-      getToken: (props) => <GetToken {...props} setUserData={setUserData} />,
+      // getToken: (props) => <GetToken {...props} setUserData={setUserData} />,
       createFileName: (props) => (
-        <UploadImage {...props} setUserData={setUserData} />
+        <CreateFile {...props} setUserData={setUserData} />
       ),
       dataService: (props) => (
         <DataService
           {...props}
           data={{ ...props.data, options }}
+          setUserData={setUserData}
+    
         />
       ),
+      uploadImageNode:(props) => (
+        <UploadImageNode
+          {...props}
+          data={{ ...props.data }}
+          setUserData={setUserData}
+          userData={userData}
+        />
+      ),
+      filePreviewNode: FilePreviewNode,
       imageNode: ImageNode,
       customCardNode: (props) => (
         <CustomCardNode
@@ -113,7 +155,7 @@ const App = () => {
         />
       ),
     },
-    []
+    [userData]
   );
 
   const onConnect = useCallback(
@@ -125,14 +167,14 @@ const App = () => {
       };
       setEdges((prevEdges) => {
         const updatedEdges = addEdge(newEdge, prevEdges);
-
-        if (connections.source === "2" && connections.target === "3") {
+        const sourceNode = nodes.find((node) => node.id === connections.source);
+        if (sourceNode?.data?.fileType === "imagePreview" && connections.target === "5") {
           removeBackgroundImage(userData, setNodes, setEdges);
-        } else if (connections.source === "2" && connections.target === "4") {
+        } else if (connections.source === "2" && connections.target === "6") {
           manifest(userData, setNodes, setEdges);
         }
 
-        if (connections.target === "5") {
+        if (connections.target === "") {
           setNodes((prevNodes) => {
             const sourceNode = prevNodes.find(
               (node) => node.id === connections.source
