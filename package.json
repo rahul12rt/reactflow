@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@adobe/react-spectrum": "^3.39.0",
+    "@react-spectrum/toast": "^3.0.0-beta.18",
     "@webtoon/psd": "^0.4.0",
     "@xyflow/react": "^12.3.6",
     "axios": "^1.7.9",

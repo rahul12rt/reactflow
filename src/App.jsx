@@ -19,6 +19,10 @@ import PropTypes from "prop-types";
 import manifest from "./utlis/manifest";
 import CustomCardNode from "./components/customCardNode";
 import psdEdits from "./utlis/psdEdits";
+import Header from "./components/header";
+import { defaultTheme, Provider } from "@adobe/react-spectrum";
+import {ToastContainer} from '@react-spectrum/toast'
+
 
 const ImageNode = ({ data }) => {
   return (
@@ -44,7 +48,7 @@ ImageNode.propTypes = {
 const App = () => {
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
-  const [editedText, setEditedText] = useState()
+  const [editedText, setEditedText] = useState();
   const [selectedValue, setSelectedValue] = useState("");
 
   const [userData, setUserData] = useState({
@@ -53,31 +57,33 @@ const App = () => {
   });
 
   const options = [
-    { value: "3", label: "Remove Background" },
-    { value: "4", label: "Manifest" },
-    { value: "5", label: "PSD Text edit" },
+    { value: "3", label: "Remove Background", parent:"PS" },
+    { value: "4", label: "Manifest", parent:"PS" },
+    { value: "5", label: "PSD Text edit", parent:"PS" },
   ];
 
   const handleSelectChange = (event) => {
     const selectedId = event.target.value;
-    const selectedLabel = options.find(
-      (opt) => opt.value === selectedId
-    )?.label;
-
-    if (selectedId && !nodes.some((node) => node.id === selectedId)) {
+    const selectedOption = options.find((opt) => opt.value === selectedId);
+  
+    if (selectedOption && !nodes.some((node) => node.id === selectedId)) {
       setNodes((prevNodes) => [
         ...prevNodes,
         {
           id: selectedId,
-          data: { label: selectedLabel },
+          data: { 
+            ...selectedOption, 
+            options, // Pass all options here 
+          },
           position: { x: Math.random() * 400, y: Math.random() * 400 },
           type: "dataService",
         },
       ]);
     }
-
+  
     setSelectedValue(selectedId);
   };
+  
 
   const updateNodeData = (id, newData) => {
     setNodes((prevNodes) =>
@@ -86,23 +92,29 @@ const App = () => {
       )
     );
   };
-  
-  
+
   const nodeTypes = useCallback(
     {
       getToken: (props) => <GetToken {...props} setUserData={setUserData} />,
       createFileName: (props) => (
         <UploadImage {...props} setUserData={setUserData} />
       ),
-      dataService: DataService,
+      dataService: (props) => (
+        <DataService
+          {...props}
+          data={{ ...props.data, options }}
+        />
+      ),
       imageNode: ImageNode,
       customCardNode: (props) => (
-        <CustomCardNode {...props} data={{ ...props.data, updateNodeData, setEditedText }} />
+        <CustomCardNode
+          {...props}
+          data={{ ...props.data, updateNodeData, setEditedText }}
+        />
       ),
     },
     []
   );
-  
 
   const onConnect = useCallback(
     (connections) => {
@@ -116,56 +128,46 @@ const App = () => {
 
         if (connections.source === "2" && connections.target === "3") {
           removeBackgroundImage(userData, setNodes, setEdges);
-        }else if (connections.source === "2" && connections.target === "4") {
-          manifest(userData, setNodes, setEdges)
+        } else if (connections.source === "2" && connections.target === "4") {
+          manifest(userData, setNodes, setEdges);
         }
-  
+
         if (connections.target === "5") {
           setNodes((prevNodes) => {
             const sourceNode = prevNodes.find(
               (node) => node.id === connections.source
             );
-            const id = sourceNode?.data?.child.id
-            psdEdits(editedText, userData,id, setNodes, setEdges);
+            const id = sourceNode?.data?.child.id;
+            psdEdits(editedText, userData, id, setNodes, setEdges);
             return prevNodes;
           });
         }
-  
+
         return updatedEdges;
       });
     },
     [edges, setEdges, userData, editedText, setEditedText]
   );
 
-  
-  
-
   return (
-    <div style={{ width: "100vw", height: "100vh" }}>
-      <div style={{ marginBottom: 20 }}>
-        <select value={selectedValue} onChange={handleSelectChange}>
-          <option value="">Select Node</option>
-          {options.map((option) => (
-            <option key={option.value} value={option.value}>
-              {option.label}
-            </option>
-          ))}
-        </select>
+    <Provider theme={defaultTheme} colorScheme="light">
+      <Header options={options} handleSelectChange={handleSelectChange} selectedValue={selectedValue}/>
+      <div style={{ width: "100vw", height: "100vh" }}>
+        <ReactFlow
+          nodes={nodes}
+          edges={edges}
+          onNodesChange={onNodesChange}
+          onEdgesChange={onEdgesChange}
+          onConnect={onConnect}
+          nodeTypes={nodeTypes}
+        >
+          <Controls />
+          <Background />
+        </ReactFlow>
       </div>
-      <ReactFlow
-        nodes={nodes}
-        edges={edges}
-        onNodesChange={onNodesChange}
-        onEdgesChange={onEdgesChange}
-        onConnect={onConnect}
-        nodeTypes={nodeTypes}
-      >
-        <Controls />
-        <Background />
-      </ReactFlow>
-    </div>
+      <ToastContainer />
+    </Provider>
   );
 };
-
 
 export default App;

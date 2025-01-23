@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 import { Handle, Position } from "reactflow";
 import { BASE_URL } from "../../../config";
 import convertPsdToJpg from "../../utlis/psdToJpg";
+import { Button } from "@adobe/react-spectrum";
 
 const UploadImage = (props) => {
   const { data, setUserData } = props;
@@ -143,11 +144,9 @@ const UploadImage = (props) => {
             <option value="image">Image (.jpg)</option>
             <option value="psd">PSD (.psd)</option>
           </select>
-          <div>
-            <button className="uploadButton" onClick={handleCreateFile}>
+            <Button variant="accent" onPress={handleCreateFile}>
               Create File
-            </button>
-          </div>
+            </Button>
         </div>
       )}
 
