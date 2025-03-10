@@ -42,56 +42,41 @@ const manifest = async (userData, setNodes, setEdges) => {
 
     const imageUrl = await fetchStatus();
     const layers = imageUrl.outputs[0]?.layers || [];
-    const seenNames = new Set(); 
 
-    const uniqueLayers = layers.map((layer) => {
-      const uniqueChildren =
-        layer?.children?.filter((child) => {
-          if (seenNames.has(child?.name)) {
-            return false; 
-          }
-          seenNames.add(child?.name); // Add to the seen set
-          return true; // Include if name is not seen
-        }) || [];
+    const seenNames = new Set();
+    const uniqueChildren = [];
 
-      return { ...layer, children: uniqueChildren };
-    });
-
-    let currentYPosition = 0;
-
-    uniqueLayers.forEach((layer) => {
-      layer.children.forEach((child) => {
-        const newNodeId = `node-${Date.now()}-${child.name}`;
-    
-        // Calculate position before updating nodes
-        const position = { x: 1450, y: currentYPosition };
-    
-        setNodes((prevNodes) => [
-          ...prevNodes,
-          {
-            id: newNodeId,
-            type: "customCardNode",
-            position, // Use the calculated position
-            data: { child },
-          },
-        ]);
-    
-        currentYPosition += 350; // Increment position after use
-    
-        setEdges((prevEdges) => [
-          ...prevEdges,
-          {
-            id: `edge-to-${newNodeId}`,
-            source: "4",
-            target: newNodeId,
-            animated: true,
-          },
-        ]);
+    layers.forEach((layer) => {
+      layer.children?.forEach((child) => {
+        if (!seenNames.has(child?.name)) {
+          seenNames.add(child?.name);
+          uniqueChildren.push(child);
+        }
       });
     });
-    
 
+    const newNodeId = `node-${Date.now()}`;
+    const position = { x: 1450, y: 0 };
 
+    setNodes((prevNodes) => [
+      ...prevNodes,
+      {
+        id: "9",
+        type: "customCardNode",
+        position,
+        data: { children: uniqueChildren },
+      },
+    ]);
+
+    setEdges((prevEdges) => [
+      ...prevEdges,
+      {
+        id: "10",
+        source: "6",
+        target: "9",
+        animated: true,
+      },
+    ]);
   } catch (error) {
     console.error("API Error:", error);
     alert("An error occurred. Please try again.");

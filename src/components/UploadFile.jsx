@@ -24,7 +24,8 @@ const UploadImageNode = (props) => {
   const [imageUrl, setImageUrl] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [dialogOpen, setDialogOpen] = useState(false);
-  const reactFlowInstance = useReactFlow(); // Hook to manage React Flow state
+  const reactFlowInstance = useReactFlow();
+  const { getNodes } = useReactFlow();
 
   const fileType = userData?.files?.fileType || "image";
   const fileName = userData?.files?.fileName || "";
@@ -47,19 +48,33 @@ const UploadImageNode = (props) => {
 
   const handleUploadImage = async () => {
     if (!apiUrl || !selectedImage) return;
-
     setIsLoading(true);
     try {
       const formData = new FormData();
       formData.append("file", selectedImage);
       formData.append("url", apiUrl);
 
+      const response = await axios.post(
+        'https://v2.convertapi.com/convert/psd/to/jpg', 
+        formData, 
+        {
+            headers: {
+                "Authorization": "Bearer secret_OqOClxbpSqblzQs0",  // Replace 'YOUR_API_KEY' with the actual key
+                "Content-Type": "multipart/form-data",
+            },
+        }
+    );
+
+    const url = `data:image/jpeg;base64,${response.data.Files[0].FileData}`;
+
+    console.log('Conversion successful:', `data:image/jpeg;base64,${response.data.Files[0].FileData}`);
+
       await axios.post(`${BASE_URL}proxy/upload-image`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
       });
-      handleGetFile();
+      handleGetFile(url);
     } catch (error) {
       console.error("Error:", error);
       alert("Upload failed");
@@ -68,7 +83,7 @@ const UploadImageNode = (props) => {
     }
   };
 
-  const handleGetFile = async () => {
+  const handleGetFile = async (url) => {
     setIsLoading(true);
     try {
       const response = await axios.get(
@@ -78,8 +93,6 @@ const UploadImageNode = (props) => {
       if (response.status === 200) {
         const fileUrl = response.data.url;
 
-        console.log("Received file URL:", fileUrl);
-
         setUserData((prev) => ({
           ...prev,
           files: {
@@ -88,14 +101,18 @@ const UploadImageNode = (props) => {
           },
         }));
 
-        setImageUrl(fileUrl);
+        setImageUrl(url);
+        const currentNodes = getNodes();
+        const lastNode = currentNodes[currentNodes.length - 1];
 
-        // Dynamically add the new node and edge
+        const newPosition = lastNode
+          ? { x: lastNode.position.x + 200, y: lastNode.position.y }
+          : { x: 50, y: 50 };
         const newNode = {
-          id:"4",
+          id: (currentNodes.length + 1).toString(),
           type: "filePreviewNode",
-          position: { x: 900, y: 450 }, // Adjust the position
-          data: { fileUrl, fileType: "imagePreview"},
+          position: newPosition, // Adjust the position
+          data: { url, fileType: "imagePreview" },
         };
 
         const newEdge = {
@@ -172,7 +189,9 @@ const UploadImageNode = (props) => {
                       className={styles.previewImage}
                     />
                   ) : (
-                    <div className={styles.successMessage}>PSD File Uploaded</div>
+                    <div className={styles.successMessage}>
+                      PSD File Uploaded
+                    </div>
                   )}
                 </div>
               )}

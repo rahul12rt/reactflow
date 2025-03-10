@@ -21,9 +21,9 @@ import { Handle, Position, useReactFlow } from "reactflow";
 import { ToastQueue } from "@react-spectrum/toast";
 
 export const CreateFileNode = (props) => {
-    const { setNodes, setEdges } = useReactFlow();
+  const { setNodes, setEdges, getNodes } = useReactFlow();
   const { data, setUserData } = props;
-  const [fileName, setFileName] = useState("");
+  const [fileName, setFileName] = useState("New");
   const [dialogOpen, setDialogOpen] = useState(false);
   const [fileType, setFileType] = useState("image");
   const [isLoading, setIsLoading] = useState(false);
@@ -68,27 +68,34 @@ export const CreateFileNode = (props) => {
           },
         }));
 
-              // Create a new node
-      const newNode = {
-        id: "3", // Make sure IDs are unique
-        data: { label: "Upload File Document" },
-        position: { x: 450, y: 0 },
-        type: "uploadImageNode",
-      };
+        const currentNodes = getNodes();
+        const lastNode = currentNodes[currentNodes.length - 1];
 
-      // Add the new node
-      setNodes((nds) => nds.concat(newNode));
+        const newPosition = lastNode
+          ? { x: lastNode.position.x + 200, y: lastNode.position.y }
+          : { x: 50, y: 50 };
 
-      const newEdge = {
-        id: `edge-2`, // Unique edge ID
-        source: "2", // Connect from the current node
-        target: "3", // Connect to the new node
-        type: "default", // Edge type
-      };
+        // Create a new node
+        const newNode = {
+          id: (currentNodes.length + 1).toString(),
+          data: { label: "Upload File Document" },
+          position: newPosition,
+          type: "uploadImageNode",
+        };
 
-      // Add the new edge
-      setEdges((eds) => eds.concat(newEdge));
-        
+        // Add the new node
+        setNodes((nds) => nds.concat(newNode));
+
+        const newEdge = {
+          id: `edge-2`, // Unique edge ID
+          source: "2", // Connect from the current node
+          target: "3", // Connect to the new node
+          type: "default", // Edge type
+        };
+
+        // Add the new edge
+        setEdges((eds) => eds.concat(newEdge));
+
         ToastQueue.positive("File created successfully!", { timeout: 2000 });
         setIsFileCreated(true);
         closeDialog();
@@ -166,9 +173,9 @@ export const CreateFileNode = (props) => {
       </DialogTrigger>
 
       <Handle type="target" position={Position.Left} />
-      <Handle 
-        type="source" 
-        position={Position.Right} 
+      <Handle
+        type="source"
+        position={Position.Right}
         isConnectable={isFileCreated}
       />
     </div>

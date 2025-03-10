@@ -1,62 +1,82 @@
 import { Handle } from "reactflow";
-import { FaEdit, FaSave } from "react-icons/fa"; 
+import { FaEdit, FaSave } from "react-icons/fa";
 import { useState } from "react";
 
 const CustomCardNode = ({ data }) => {
-  const [isEditing, setIsEditing] = useState(false);
-  const [text, setText] = useState(data.child.name); 
+  console.log("Data:", data);
 
+  if (!data || !data.children || data.children.length === 0) {
+    return <div className="card">No Data</div>;
+  }
 
-  const handleSave = () => {
-    setIsEditing(false);
-    data.setEditedText(text)
-      if (data.updateNodeData) {
-      data.updateNodeData(data.id, { child: { ...data.child, editedText: text } });
+  const [editingIndex, setEditingIndex] = useState(null);
+  const [editedTexts, setEditedTexts] = useState(
+    data.children.map((child) =>
+      child.type === "textLayer" && child.text?.content ? child.text.content : ""
+    )
+  );
+
+  const handleSave = (index) => {
+    setEditingIndex(null);
+    data.setEditedText && data.setEditedText(editedTexts[index]);
+
+    if (data.updateNodeData) {
+      const updatedChildren = data.children.map((child, i) =>
+        i === index ? { ...child, editedText: editedTexts[i] } : child
+      );
+      data.updateNodeData(data.id, { children: updatedChildren });
     }
   };
 
   return (
     <div className="card">
-      {data.child.type === "textLayer" && (
-        <div className="cardContianer">
-          <p className="edit">
-            {isEditing ? (
-              <span onClick={handleSave} style={{ cursor: "pointer" }}>
-                Save <FaSave style={{ marginLeft: "5px" }} />
-              </span>
-            ) : (
-              <span onClick={() => setIsEditing(true)} style={{ cursor: "pointer" }}>
-                Edit <FaEdit style={{ marginLeft: "5px" }} />
-              </span>
-            )}
-          </p>
-          <div>
-            {isEditing ? (
-              <input
-                type="text"
-                value={text}
-                onChange={(e) => setText(e.target.value)}
-                style={{
-                  width: "100%",
-                  padding: "5px",
-                  border: "1px solid #ccc",
-                  borderRadius: "4px",
-                }}
-              />
-            ) : (
-              <span>{text}</span>
-            )}
-          </div>
+      {data.children.map((child, index) => (
+        <div key={index} className="cardContainer">
+          {child.type === "textLayer" && (
+            <>
+              <p className="edit">
+                {editingIndex === index ? (
+                  <span onClick={() => handleSave(index)} style={{ cursor: "pointer" }}>
+                    Save <FaSave style={{ marginLeft: "5px" }} />
+                  </span>
+                ) : (
+                  <span onClick={() => setEditingIndex(index)} style={{ cursor: "pointer" }}>
+                    Edit <FaEdit style={{ marginLeft: "5px" }} />
+                  </span>
+                )}
+              </p>
+              <div>
+                {editingIndex === index ? (
+                  <input
+                    type="text"
+                    value={editedTexts[index]}
+                    onChange={(e) =>
+                      setEditedTexts((prev) => {
+                        const newTexts = [...prev];
+                        newTexts[index] = e.target.value;
+                        return newTexts;
+                      })
+                    }
+                    style={{
+                      width: "100%",
+                      padding: "5px",
+                      border: "1px solid #ccc",
+                      borderRadius: "4px",
+                    }}
+                  />
+                ) : (
+                  <span>{editedTexts[index]}</span>
+                )}
+              </div>
+            </>
+          )}
+
+          {child.type === "smartObject" && <img src={child.thumbnail} alt={child.name} />}
+          {child.type !== "textLayer" && child.type !== "smartObject" && (
+            <img src={child.thumbnail} alt={child.name} />
+          )}
         </div>
-      )}
-
-      {data.child.type === "smartObject" && (
-        <img src={data.child.thumbnail} alt={data.child.name} />
-      )}
-
-      {data.child.type !== "textLayer" && data.child.type !== "smartObject" && (
-        <img src={data.child.thumbnail} alt={data.child.name} />
-      )}
+      ))}
 
       <Handle type="target" position="left" id="default" />
       <Handle type="source" position="right" id="default" />

@@ -240,3 +240,8 @@ right: -15px;
 .downloadButton img{
   width: 100%;
 }
+
+.cardContent{
+  width: 300px;
+  height: auto;
+}

@@ -24,11 +24,11 @@ import {
 import { BASE_URL } from "../../../config";
 
 const DataService = ({ data, id, setUserData }) => {
-  const { setNodes, setEdges } = useReactFlow();
+  const { setNodes, setEdges, getNodes } = useReactFlow();
   const [dialogOpen, setDialogOpen] = useState(false);
   const [formState, setFormState] = useState({
-    clientId: "",
-    secretId: "",
+    clientId: "296111349a3944829d5450be1744c58e",
+    secretId: "p8e-inRDq3MJjPM8q_zK7MHHLWyzq26g2tqs",
     error: "",
     isLoading: false,
   });
@@ -83,11 +83,18 @@ const DataService = ({ data, id, setUserData }) => {
         auth: { token: response.data, clientId: formState.clientId },
       }));
 
+      const currentNodes = getNodes();
+      const lastNode = currentNodes[currentNodes.length - 1];
+  
+      const newPosition = lastNode
+        ? { x: lastNode.position.x + 200, y: lastNode.position.y }
+        : { x: 50, y: 50 };
+
       // Create a new node
       const newNode = {
-        id: "2", // Make sure IDs are unique
+        id: (currentNodes.length + 1).toString(),
         data: { label: "Create a File Name" },
-        position: { x: 450, y: 450 },
+        position: newPosition,
         type: "createFileName",
       };
 

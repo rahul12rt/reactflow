@@ -52,7 +52,7 @@ const ImageNode = ({ data }) => {
     <div className="container" style={{textAlign:"start", position:"relative"}}>
       <div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
       <h3 style={{padding:10}}>Background Removed Preview</h3>
-      <Button variant="accent" onPress={handleDownload}>Download</Button>
+      {/* <Button variant="accent" onPress={handleDownload}>Download</Button> */}
       </div>
   
       <div className="nodeContainer">
@@ -88,7 +88,7 @@ const App = () => {
   });
 
   const options = [
-    { value: "5", label: "Remove Background", parent:"FF" },
+    { value: "5", label: "Remove Background", parent:"PS" },
     { value: "6", label: "Manifest", parent:"PS" },
     { value: "7", label: "PSD Text edit", parent:"PS" },
     { value: "8", label: "Generate Token", parent:"GT" },
@@ -165,21 +165,26 @@ const App = () => {
         animated: true,
         id: `${edges.length + 1}`,
       };
+
+     
       setEdges((prevEdges) => {
         const updatedEdges = addEdge(newEdge, prevEdges);
         const sourceNode = nodes.find((node) => node.id === connections.source);
+        console.log(connections.target, sourceNode?.data?.fileType, connections.source)
         if (sourceNode?.data?.fileType === "imagePreview" && connections.target === "5") {
           removeBackgroundImage(userData, setNodes, setEdges);
-        } else if (connections.source === "2" && connections.target === "6") {
+        } else if (sourceNode?.data?.fileType === "imagePreview" && connections.target === "6") {
           manifest(userData, setNodes, setEdges);
         }
 
-        if (connections.target === "") {
+        if (connections.source === "9" && connections.target === "7") {
+          console.log("connected")
           setNodes((prevNodes) => {
             const sourceNode = prevNodes.find(
               (node) => node.id === connections.source
             );
-            const id = sourceNode?.data?.child.id;
+            console.log(sourceNode)
+            const id = sourceNode?.data?.children[0].id;
             psdEdits(editedText, userData, id, setNodes, setEdges);
             return prevNodes;
           });
