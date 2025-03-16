@@ -24,6 +24,8 @@ import {  Button, defaultTheme, Provider } from "@adobe/react-spectrum";
 import {ToastContainer} from '@react-spectrum/toast'
 import UploadImageNode from "./components/UploadFile";
 import FilePreviewNode from "./components/filePreviewNode";
+import CustomEdge from "./components/edge";
+import replaceSO from "./utlis/replaceSmartObject";
 
 
 
@@ -80,6 +82,7 @@ const App = () => {
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
   const [editedText, setEditedText] = useState();
+  const [editedImageURL, setEditedImageURL] = useState()
   const [selectedValue, setSelectedValue] = useState("");
 
   const [userData, setUserData] = useState({
@@ -92,12 +95,17 @@ const App = () => {
     { value: "6", label: "Manifest", parent:"PS" },
     { value: "7", label: "PSD Text edit", parent:"PS" },
     { value: "8", label: "Generate Token", parent:"GT" },
+    { value: "16", label: "Replace Smart Object", parent:"PS" },
   ];
   const handleSelectChange = (event) => {
     const selectedId = event.target.value;
     const selectedOption = options.find((opt) => opt.value === selectedId);
   
     if (selectedOption && !nodes.some((node) => node.id === selectedId)) {
+      const lastNode = nodes[nodes.length - 1];
+      const newPosition = lastNode
+        ? { x: lastNode.position.x + 400, y: lastNode.position.y } 
+        : { x: 0, y: 0 };
       setNodes((prevNodes) => [
         ...prevNodes,
         {
@@ -106,7 +114,7 @@ const App = () => {
             ...selectedOption, 
             options,
           },
-          position: { x: Math.random() * 400, y: Math.random() * 400 },
+          position: newPosition,
           type: "dataService",
         },
       ]);
@@ -151,6 +159,7 @@ const App = () => {
       customCardNode: (props) => (
         <CustomCardNode
           {...props}
+          setEditedImageURL={setEditedImageURL}
           data={{ ...props.data, updateNodeData, setEditedText }}
         />
       ),
@@ -158,12 +167,24 @@ const App = () => {
     [userData]
   );
 
+      // Function to delete an edge
+      const handleDeleteEdge = (edgeId) => {
+        setEdges((prevEdges) => prevEdges.filter((edge) => edge.id !== edgeId));
+      };
+    
+      const edgeTypes = {
+        customEdge: (props) => (
+          <CustomEdge {...props} data={{ onDelete: handleDeleteEdge }} />
+        ),
+      };
+
   const onConnect = useCallback(
     (connections) => {
       const newEdge = {
         ...connections,
         animated: true,
         id: `${edges.length + 1}`,
+        type: "customEdge",
       };
 
      
@@ -177,15 +198,31 @@ const App = () => {
           manifest(userData, setNodes, setEdges);
         }
 
-        if (connections.source === "9" && connections.target === "7") {
+        if (connections.target === "7") {
           console.log("connected")
           setNodes((prevNodes) => {
             const sourceNode = prevNodes.find(
               (node) => node.id === connections.source
             );
             console.log(sourceNode)
-            const id = sourceNode?.data?.children[0].id;
+            const id = sourceNode?.data?.child.id;
             psdEdits(editedText, userData, id, setNodes, setEdges);
+        
+            return prevNodes;
+          });
+        }
+
+        
+        if (connections.target === "16") {
+          console.log("connected v2")
+          setNodes((prevNodes) => {
+            const sourceNode = prevNodes.find(
+              (node) => node.id === connections.source
+            );
+            console.log(sourceNode)
+            const id = sourceNode?.data?.child.id; 
+            console.log(editedImageURL)   
+            replaceSO(editedImageURL, userData, id, setNodes, setEdges)
             return prevNodes;
           });
         }
@@ -193,8 +230,10 @@ const App = () => {
         return updatedEdges;
       });
     },
-    [edges, setEdges, userData, editedText, setEditedText]
+    [edges, setEdges, userData, editedText, setEditedText, editedImageURL, setEditedImageURL]
   );
+
+
 
   return (
     <Provider theme={defaultTheme} colorScheme="light">
@@ -207,6 +246,7 @@ const App = () => {
           onEdgesChange={onEdgesChange}
           onConnect={onConnect}
           nodeTypes={nodeTypes}
+          edgeTypes={edgeTypes}
         >
           <Controls />
           <Background />

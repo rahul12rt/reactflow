@@ -55,28 +55,53 @@ const manifest = async (userData, setNodes, setEdges) => {
       });
     });
 
-    const newNodeId = `node-${Date.now()}`;
-    const position = { x: 1450, y: 0 };
-
-    setNodes((prevNodes) => [
-      ...prevNodes,
-      {
-        id: "9",
-        type: "customCardNode",
-        position,
-        data: { children: uniqueChildren },
-      },
-    ]);
-
-    setEdges((prevEdges) => [
-      ...prevEdges,
-      {
-        id: "10",
-        source: "6",
-        target: "9",
-        animated: true,
-      },
-    ]);
+    setNodes((prevNodes) => {
+      const newNodes = [];
+      const newEdges = [];
+    
+      let currentX = prevNodes.length > 0 ? prevNodes[prevNodes.length - 1].position.x + 200 : 0;
+      let lastNodeId = prevNodes.length > 0 
+        ? parseInt(prevNodes[prevNodes.length - 1].id.split("-").pop(), 10) 
+        : 0;
+    
+      uniqueChildren.forEach((child, index) => {
+        lastNodeId += 1; // Increment lastNodeId for each new node
+    
+        const newNodeId = `node-${lastNodeId}`;
+    
+        const yOffset = (index % 5) * 100;
+        const position = { x: currentX, y: yOffset };
+    
+        newNodes.push({
+          id: newNodeId,
+          type: "customCardNode",
+          position,
+          data: { child },
+        });
+    
+        if (index > 0 || prevNodes.length > 0) {
+          const sourceNodeId =
+            index === 0 ? prevNodes[prevNodes.length - 1].id : newNodes[index - 1].id;
+    
+          newEdges.push({
+            id: `edge-${index}`,
+            source: "6",
+            target: newNodeId,
+            animated: false,
+          });
+    
+          if ((index + 1) % 5 === 0) {
+            currentX += 200; // Move to the right after every 5 nodes
+          }
+        }
+      });
+    
+      setEdges((prevEdges) => [...prevEdges, ...newEdges]);
+      return [...prevNodes, ...newNodes];
+    });
+    
+    
+    
   } catch (error) {
     console.error("API Error:", error);
     alert("An error occurred. Please try again.");
